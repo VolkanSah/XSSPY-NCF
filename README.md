@@ -3,7 +3,6 @@
 > [!WARNING]
 >  Please note that this repository is for educational purposes and to help improve security. Use these tools and techniques responsibly and ethically. Always remember to follow the law and consider the impact of your actions-
 
-
 I was inspired by the work of [faizann24](https://github.com/faizann24/XssPy) and use my script below with my own tools/scrappers. It appears that his account is no longer active, but Thanks bro for your smart idea.
 
 ```
@@ -64,6 +63,16 @@ Modify the logging level to capture more detailed information during the scan.
 ## Changes from Original Code
 This version of XssPy has several improvements and updates compared to the original script by Faizan Ahmad:
 
+### Reading Payloads from a File
+You can also read payloads from an external file. Each line in the file should contain one payload. To do this, use the following function:
+
+```python
+def read_payloads_from_file(file_path):
+    with open(file_path, 'r') as file:
+        payloads = [line.strip() for line in file]
+    return payloads
+```
+
 1. **Python 3 Compatibility**:
    - Updated to work with Python 3, including changes from `httplib` to `http.client` and `urlparse` to `urllib.parse`.
    - `print` statements updated to `print()` function.
@@ -90,7 +99,6 @@ These changes aim to make the script more robust, user-friendly, and effective i
 
 > [!WARNING]
 > **Important Note:** This information is provided for educational purposes and to help improve security. Use these tools and techniques responsibly and ethically. Unauthorized access to, or exploitation of, systems and data is illegal and unethical. Please be aware of the potential risks and consequences associated with using the knowledge and tools shared in this document. Ensure that you have proper authorization before attempting to test or exploit any systems.
-
 
 ### Thank you for your support!
 - If you appreciate my work, please consider [becoming a 'Sponsor'](https://github.com/sponsors/volkansah), giving a :star: to my projects, or following me. 
