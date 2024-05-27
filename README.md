@@ -64,7 +64,7 @@ Modify the logging level to capture more detailed information during the scan.
 This version of XssPy has several improvements and updates compared to the original script by Faizan Ahmad:
 
 ### Reading Payloads from a File
-You can also read payloads from an external file. Each line in the file should contain one payload. To do this, use the following function:
+You can also read payloads from an external file. Each line in the file should contain one payload. To do this, it use the following function:
 
 ```python
 def read_payloads_from_file(file_path):
