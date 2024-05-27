@@ -24,7 +24,7 @@ I won't provide a complete walkthrough to prevent misuse of this information by 
 3. [Usage](#usage)
 4. [Advanced Features](#advanced-features)
 5. [Changes from Original Code](#changes-from-original-code)
-6. [Security Warning](#security-warning)
+
 
 ## Introduction
 XssPy is a tool designed to help security researchers and ethical hackers identify potential Cross-Site Scripting (XSS) vulnerabilities in web applications. It automates the process of testing for XSS vulnerabilities by analyzing web pages and submitting payloads to check for any possible security issues.
