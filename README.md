@@ -1,5 +1,6 @@
 # XSSPY_2024
-###### Rebuilded 2023/24 (Version 27.05.2024)
+###### rebuilt 2019-24 (Version 27.05.2024)
+![XSS Py Rebuillt](xsspy-jpg.jpg)
 > [!WARNING]
 >  Please note that this repository is for educational purposes and to help improve security. Use these tools and techniques responsibly and ethically. Always remember to follow the law and consider the impact of your actions-
 
