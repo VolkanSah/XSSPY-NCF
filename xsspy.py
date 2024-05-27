@@ -6,6 +6,12 @@ import argparse
 import logging
 from urllib.parse import urlparse
 
+# Funktion zum Einlesen der Payloads aus einer Datei
+def read_payloads_from_file(file_path):
+    with open(file_path, 'r') as file:
+        payloads = [line.strip() for line in file]
+    return payloads
+
 br = mechanize.Browser()  # initiating the browser
 br.addheaders = [
     ('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3')
@@ -13,7 +19,12 @@ br.addheaders = [
 br.set_handle_robots(False)
 br.set_handle_refresh(False)
 
-payloads = ['<svg onload=alert(1)>', '" onfocus="alert(1);', 'javascript:alert(1)']
+# inline payloads
+# payloads = ['<svg onload=alert(1)>', '" onfocus="alert(1);', 'javascript:alert(1)']
+# payloads from file
+payload_file_path = 'payloads.txt'
+payloads = read_payloads_from_file(payload_file_path)
+
 blacklist = ['.png', '.jpg', '.jpeg', '.mp3', '.mp4', '.avi', '.gif', '.svg', '.pdf']
 xssLinks = []  # TOTAL CROSS SITE SCRIPTING FINDINGS
 
