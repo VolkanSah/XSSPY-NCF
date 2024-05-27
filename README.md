@@ -1,5 +1,5 @@
 # XSSPY_2024
-###### Rebuilded 2023/24 (Version 4)
+###### Rebuilded 2023/24 (Version 27.05.2024)
 > [!WARNING]
 >  Please note that this repository is for educational purposes and to help improve security. Use these tools and techniques responsibly and ethically. Always remember to follow the law and consider the impact of your actions-
 
