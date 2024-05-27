@@ -41,17 +41,17 @@ pip install mechanize argparse logging
 To use XssPy, simply run the script with the target URL:
 
 ```shell
-python xsspy.py -u http://example.com
+python xsspy.py -u example.com
 ```
 
 ### Example: Comprehensive Scan with Verbose Output
 ```shell
-python xsspy.py -u http://example.com -e -v
+python xsspy.py -u example.com -e -v
 ```
 
 ### Example: Using Custom Cookies
 ```shell
-python xsspy.py -u http://example.com -c "cookie1=value1" "cookie2=value2"
+python xsspy.py -u example.com -c "cookie1=value1" "cookie2=value2"
 ```
 
 ## Advanced Features
