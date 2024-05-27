@@ -42,27 +42,24 @@ class color:
 
 
 print(color.BOLD + color.RED + """
-____  ___              __________        
-\   \\/  /  ______ _____\\______   \\___.__.
- \\     /  /  ___//  ___/|     ___<   |  |
- /     \\  \\___ \\ \\___ \\ |    |    \\___  |
-/___/\\  \\/____  >____  >|____|    / ____|
-      \\/     \\/     \\/           \\/     
-XssPy 2024 - Finding XSS made much easier
-inspired by the work of https://github.com/faizann24/XssPy
-Copyright S. Volkan Sah Kücükbudak
+ __  __        ____           ___   _  ____ _______  
+ \ \/ /___ ___|  _ \ _   _   / / \ | |/ ___|  ___\ \ 
+  \  // __/ __| |_) | | | | | ||  \| | |   | |_   | |
+  /  \\__ \__ \  __/| |_| | | || |\  | |___|  _|  | |
+ /_/\_\___/___/_|    \__, | | ||_| \_|\____|_|    | |
+                     |___/   \_\                 /_/ 
 
-XssPy is a tool designed to help security researchers and ethical hackers
-identify potential Cross-Site Scripting (XSS) vulnerabilities in web applications.
-It automates the process of testing for XSS vulnerabilities by analyzing web pages
-and submitting payloads to check for any possible security issues.
+XssPy NCF - Simplifying XSS Detection
+Created by Nemesis Cyber Force (NCF)
+© S. Volkan Kücükbudak / Mr.Chess
 
-Please visit https://github.com/VolkanSah/Hack-onion-hidden-service/
-for the updated version and more information on how to use this tool responsibly.
+XssPy (NCF) is designed for security researchers and ethical hackers to identify XSS vulnerabilities 
+in web applications. It automates the testing process by analyzing web pages and submitting payloads 
+to detect security issues.
+For stable and nightly versions, visit: https://github.com/VolkanSah/XSSPY-NCF/
 
-Remember, this tool is intended for ethical hacking purposes only. Unauthorized
-use of this tool may result in legal consequences. Use it responsibly and always
-seek permission before testing any web application.
+Note: This tool is for ethical hacking only. Unauthorized use may result in legal consequences. 
+Always seek permission before testing any web application.
 """ + color.END)
 
 logger = logging.getLogger(__name__)
