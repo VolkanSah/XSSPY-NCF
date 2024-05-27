@@ -10,7 +10,7 @@ I was inspired by the work of [faizann24](https://github.com/faizann24/XssPy) an
 
 
 ## Introduction
-XSSPY_2024 is an advanced tool designed to help security researchers and ethical hackers identify potential Cross-Site Scripting (XSS) vulnerabilities in web applications. This updated version automates the process of testing for XSS vulnerabilities by analyzing web pages and submitting payloads to check for any possible security issues. With the ability to read payloads from an external file, it allows for a more flexible and comprehensive testing approach.
+XSSPY -NCF Version is an advanced tool designed to help security researchers and ethical hackers identify potential Cross-Site Scripting (XSS) vulnerabilities in web applications. This updated version automates the process of testing for XSS vulnerabilities by analyzing web pages and submitting payloads to check for any possible security issues. With the ability to read payloads from an external file, it allows for a more flexible and comprehensive testing approach.
 
 ## Key Features
 - **Automated XSS Testing**: Automatically scans web applications for XSS vulnerabilities with minimal user intervention.
