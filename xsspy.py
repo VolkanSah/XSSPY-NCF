@@ -6,7 +6,6 @@ import argparse
 import logging
 from urllib.parse import urlparse
 
-# Funktion zum Einlesen der Payloads aus einer Datei
 def read_payloads_from_file(file_path):
     with open(file_path, 'r') as file:
         payloads = [line.strip() for line in file]
