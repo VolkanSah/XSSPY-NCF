@@ -95,6 +95,8 @@ This version of XSSPY_2024 has several improvements and updates compared to the 
 6. **General Improvements**:
    - Included static methods in the `color` class.
    - Optimized the `testPayload` function.
+7. **Compatibility**
+   - works with PoisonIvory (Nemesis)
 
 These changes aim to make the script more robust, user-friendly, and effective in detecting XSS vulnerabilities.
 
