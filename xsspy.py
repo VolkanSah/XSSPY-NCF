@@ -72,7 +72,7 @@ parser.add_argument('-u', action='store', dest='url', help='The URL to analyze')
 parser.add_argument('-e', action='store_true', dest='compOn', help='Enable comprehensive scan')
 parser.add_argument('-v', action='store_true', dest='verbose', help='Enable verbose logging')
 parser.add_argument('-c', action='store', dest='cookies', help='Space separated list of cookies', nargs='+', default=[])
-# parser.add_argument('-i', action='store_true', dest='poisonivory', help='Use PoisonIvory Nemesis')
+# parser.add_argument('-iva', action='store_true', dest='poisonivory', help='Use PoisonIvory Nemesis')
 results = parser.parse_args()
 
 logger.setLevel(logging.DEBUG if results.verbose else logging.INFO)
