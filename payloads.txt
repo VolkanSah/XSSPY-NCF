@@ -7,6 +7,7 @@
 <a draggable="true" ondragexit="alert(1)" style=display:block>test</a>
 <a draggable="true" ondragleave="alert(1)" style=display:block>test</a>
 <a draggable="true" ondragstart="alert(1)" style=display:block>test</a>
+<a id=x onbeforematch=alert(1) hidden=until-found>
 <a id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></a>
 <a id=x tabindex=1 onfocus=alert(1)></a>
 <a id=x tabindex=1 onfocusin=alert(1)></a>
@@ -58,6 +59,7 @@
 <a2 draggable="true" ondragexit="alert(1)" style=display:block>test</a2>
 <a2 draggable="true" ondragleave="alert(1)" style=display:block>test</a2>
 <a2 draggable="true" ondragstart="alert(1)" style=display:block>test</a2>
+<a2 id=x onbeforematch=alert(1) hidden=until-found>
 <a2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></a2>
 <a2 onbeforepaste=alert(1)>XSS</a2>
 <a2 onblur=alert(1) id=x tabindex=1 style=display:block>test</a2><input value=clickme>
@@ -104,6 +106,7 @@
 <abbr draggable="true" ondragexit="alert(1)" style=display:block>test</abbr>
 <abbr draggable="true" ondragleave="alert(1)" style=display:block>test</abbr>
 <abbr draggable="true" ondragstart="alert(1)" style=display:block>test</abbr>
+<abbr id=x onbeforematch=alert(1) hidden=until-found>
 <abbr id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></abbr>
 <abbr id=x tabindex=1 onfocus=alert(1)></abbr>
 <abbr id=x tabindex=1 onfocusin=alert(1)></abbr>
@@ -155,6 +158,7 @@
 <acronym draggable="true" ondragexit="alert(1)" style=display:block>test</acronym>
 <acronym draggable="true" ondragleave="alert(1)" style=display:block>test</acronym>
 <acronym draggable="true" ondragstart="alert(1)" style=display:block>test</acronym>
+<acronym id=x onbeforematch=alert(1) hidden=until-found>
 <acronym id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></acronym>
 <acronym id=x tabindex=1 onfocus=alert(1)></acronym>
 <acronym id=x tabindex=1 onfocusin=alert(1)></acronym>
@@ -206,6 +210,7 @@
 <address draggable="true" ondragexit="alert(1)" style=display:block>test</address>
 <address draggable="true" ondragleave="alert(1)" style=display:block>test</address>
 <address draggable="true" ondragstart="alert(1)" style=display:block>test</address>
+<address id=x onbeforematch=alert(1) hidden=until-found>
 <address id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></address>
 <address id=x tabindex=1 onfocus=alert(1)></address>
 <address id=x tabindex=1 onfocusin=alert(1)></address>
@@ -258,6 +263,7 @@
 <animate draggable="true" ondragexit="alert(1)" style=display:block>test</animate>
 <animate draggable="true" ondragleave="alert(1)" style=display:block>test</animate>
 <animate draggable="true" ondragstart="alert(1)" style=display:block>test</animate>
+<animate id=x onbeforematch=alert(1) hidden=until-found>
 <animate id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></animate>
 <animate onbeforepaste=alert(1)>XSS</animate>
 <animate onblur=alert(1) id=x tabindex=1 style=display:block>test</animate><input value=clickme>
@@ -304,6 +310,7 @@
 <animatemotion draggable="true" ondragexit="alert(1)" style=display:block>test</animatemotion>
 <animatemotion draggable="true" ondragleave="alert(1)" style=display:block>test</animatemotion>
 <animatemotion draggable="true" ondragstart="alert(1)" style=display:block>test</animatemotion>
+<animatemotion id=x onbeforematch=alert(1) hidden=until-found>
 <animatemotion id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></animatemotion>
 <animatemotion onbeforepaste=alert(1)>XSS</animatemotion>
 <animatemotion onblur=alert(1) id=x tabindex=1 style=display:block>test</animatemotion><input value=clickme>
@@ -350,6 +357,7 @@
 <animatetransform draggable="true" ondragexit="alert(1)" style=display:block>test</animatetransform>
 <animatetransform draggable="true" ondragleave="alert(1)" style=display:block>test</animatetransform>
 <animatetransform draggable="true" ondragstart="alert(1)" style=display:block>test</animatetransform>
+<animatetransform id=x onbeforematch=alert(1) hidden=until-found>
 <animatetransform id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></animatetransform>
 <animatetransform onbeforepaste=alert(1)>XSS</animatetransform>
 <animatetransform onblur=alert(1) id=x tabindex=1 style=display:block>test</animatetransform><input value=clickme>
@@ -396,6 +404,7 @@
 <applet draggable="true" ondragexit="alert(1)" style=display:block>test</applet>
 <applet draggable="true" ondragleave="alert(1)" style=display:block>test</applet>
 <applet draggable="true" ondragstart="alert(1)" style=display:block>test</applet>
+<applet id=x onbeforematch=alert(1) hidden=until-found>
 <applet id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></applet>
 <applet id=x tabindex=1 onfocus=alert(1)></applet>
 <applet id=x tabindex=1 onfocusin=alert(1)></applet>
@@ -447,6 +456,7 @@
 <area draggable="true" ondragexit="alert(1)" style=display:block>test</area>
 <area draggable="true" ondragleave="alert(1)" style=display:block>test</area>
 <area draggable="true" ondragstart="alert(1)" style=display:block>test</area>
+<area id=x onbeforematch=alert(1) hidden=until-found>
 <area id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></area>
 <area onbeforecopy="alert(1)" contenteditable>test</area>
 <area onbeforecut="alert(1)" contenteditable>test</area>
@@ -496,6 +506,7 @@
 <article draggable="true" ondragexit="alert(1)" style=display:block>test</article>
 <article draggable="true" ondragleave="alert(1)" style=display:block>test</article>
 <article draggable="true" ondragstart="alert(1)" style=display:block>test</article>
+<article id=x onbeforematch=alert(1) hidden=until-found>
 <article id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></article>
 <article id=x tabindex=1 onfocus=alert(1)></article>
 <article id=x tabindex=1 onfocusin=alert(1)></article>
@@ -548,6 +559,7 @@
 <aside draggable="true" ondragexit="alert(1)" style=display:block>test</aside>
 <aside draggable="true" ondragleave="alert(1)" style=display:block>test</aside>
 <aside draggable="true" ondragstart="alert(1)" style=display:block>test</aside>
+<aside id=x onbeforematch=alert(1) hidden=until-found>
 <aside id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></aside>
 <aside id=x tabindex=1 onfocus=alert(1)></aside>
 <aside id=x tabindex=1 onfocusin=alert(1)></aside>
@@ -619,6 +631,7 @@
 <audio draggable="true" ondragstart="alert(1)" style=display:block>test</audio>
 <audio id=x controls onfocus=alert(1) id=x><source src="validaudio.wav"></audio>
 <audio id=x controls onfocusin=alert(1) id=x><source src="validaudio.wav"></audio>
+<audio id=x onbeforematch=alert(1) hidden=until-found>
 <audio id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></audio>
 <audio onbeforecopy="alert(1)" contenteditable>test</audio>
 <audio onbeforecut="alert(1)" contenteditable>test</audio>
@@ -672,6 +685,7 @@
 <audio2 draggable="true" ondragexit="alert(1)" style=display:block>test</audio2>
 <audio2 draggable="true" ondragleave="alert(1)" style=display:block>test</audio2>
 <audio2 draggable="true" ondragstart="alert(1)" style=display:block>test</audio2>
+<audio2 id=x onbeforematch=alert(1) hidden=until-found>
 <audio2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></audio2>
 <audio2 onbeforepaste=alert(1)>XSS</audio2>
 <audio2 onblur=alert(1) id=x tabindex=1 style=display:block>test</audio2><input value=clickme>
@@ -718,6 +732,7 @@
 <b draggable="true" ondragexit="alert(1)" style=display:block>test</b>
 <b draggable="true" ondragleave="alert(1)" style=display:block>test</b>
 <b draggable="true" ondragstart="alert(1)" style=display:block>test</b>
+<b id=x onbeforematch=alert(1) hidden=until-found>
 <b id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></b>
 <b id=x tabindex=1 onfocus=alert(1)></b>
 <b id=x tabindex=1 onfocusin=alert(1)></b>
@@ -769,6 +784,7 @@
 <bdi draggable="true" ondragexit="alert(1)" style=display:block>test</bdi>
 <bdi draggable="true" ondragleave="alert(1)" style=display:block>test</bdi>
 <bdi draggable="true" ondragstart="alert(1)" style=display:block>test</bdi>
+<bdi id=x onbeforematch=alert(1) hidden=until-found>
 <bdi id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></bdi>
 <bdi id=x tabindex=1 onfocus=alert(1)></bdi>
 <bdi id=x tabindex=1 onfocusin=alert(1)></bdi>
@@ -820,6 +836,7 @@
 <bdo draggable="true" ondragexit="alert(1)" style=display:block>test</bdo>
 <bdo draggable="true" ondragleave="alert(1)" style=display:block>test</bdo>
 <bdo draggable="true" ondragstart="alert(1)" style=display:block>test</bdo>
+<bdo id=x onbeforematch=alert(1) hidden=until-found>
 <bdo id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></bdo>
 <bdo id=x tabindex=1 onfocus=alert(1)></bdo>
 <bdo id=x tabindex=1 onfocusin=alert(1)></bdo>
@@ -871,6 +888,7 @@
 <big draggable="true" ondragexit="alert(1)" style=display:block>test</big>
 <big draggable="true" ondragleave="alert(1)" style=display:block>test</big>
 <big draggable="true" ondragstart="alert(1)" style=display:block>test</big>
+<big id=x onbeforematch=alert(1) hidden=until-found>
 <big id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></big>
 <big id=x tabindex=1 onfocus=alert(1)></big>
 <big id=x tabindex=1 onfocusin=alert(1)></big>
@@ -922,6 +940,7 @@
 <blink draggable="true" ondragexit="alert(1)" style=display:block>test</blink>
 <blink draggable="true" ondragleave="alert(1)" style=display:block>test</blink>
 <blink draggable="true" ondragstart="alert(1)" style=display:block>test</blink>
+<blink id=x onbeforematch=alert(1) hidden=until-found>
 <blink id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></blink>
 <blink id=x tabindex=1 onfocus=alert(1)></blink>
 <blink id=x tabindex=1 onfocusin=alert(1)></blink>
@@ -973,6 +992,7 @@
 <blockquote draggable="true" ondragexit="alert(1)" style=display:block>test</blockquote>
 <blockquote draggable="true" ondragleave="alert(1)" style=display:block>test</blockquote>
 <blockquote draggable="true" ondragstart="alert(1)" style=display:block>test</blockquote>
+<blockquote id=x onbeforematch=alert(1) hidden=until-found>
 <blockquote id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></blockquote>
 <blockquote id=x tabindex=1 onfocus=alert(1)></blockquote>
 <blockquote id=x tabindex=1 onfocusin=alert(1)></blockquote>
@@ -1025,6 +1045,7 @@
 <body draggable="true" ondragexit="alert(1)" style=display:block>test</body>
 <body draggable="true" ondragleave="alert(1)" style=display:block>test</body>
 <body draggable="true" ondragstart="alert(1)" style=display:block>test</body>
+<body id=x onbeforematch=alert(1) hidden=until-found>
 <body id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></body>
 <body id=x tabindex=1 onfocus=alert(1)></body>
 <body id=x tabindex=1 onfocusin=alert(1)></body>
@@ -1098,6 +1119,7 @@
 <br draggable="true" ondragexit="alert(1)" style=display:block>test</br>
 <br draggable="true" ondragleave="alert(1)" style=display:block>test</br>
 <br draggable="true" ondragstart="alert(1)" style=display:block>test</br>
+<br id=x onbeforematch=alert(1) hidden=until-found>
 <br id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></br>
 <br id=x tabindex=1 onfocus=alert(1)></br>
 <br id=x tabindex=1 onfocusin=alert(1)></br>
@@ -1152,6 +1174,7 @@
 <button draggable="true" ondragexit="alert(1)" style=display:block>test</button>
 <button draggable="true" ondragleave="alert(1)" style=display:block>test</button>
 <button draggable="true" ondragstart="alert(1)" style=display:block>test</button>
+<button id=x onbeforematch=alert(1) hidden=until-found>
 <button id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></button>
 <button onbeforecopy="alert(1)" contenteditable>test</button>
 <button onbeforecut="alert(1)" contenteditable>test</button>
@@ -1302,6 +1325,8 @@
 <button popovertarget=x>Click me</button><frame ontoggle=alert(1) popover id=x>XSS</frame>
 <button popovertarget=x>Click me</button><frameset onbeforetoggle=alert(1) popover id=x>XSS</frameset>
 <button popovertarget=x>Click me</button><frameset ontoggle=alert(1) popover id=x>XSS</frameset>
+<button popovertarget=x>Click me</button><geolocation onbeforetoggle=alert(1) popover id=x>XSS</geolocation>
+<button popovertarget=x>Click me</button><geolocation ontoggle=alert(1) popover id=x>XSS</geolocation>
 <button popovertarget=x>Click me</button><h1 onbeforetoggle=alert(1) popover id=x>XSS</h1>
 <button popovertarget=x>Click me</button><h1 ontoggle=alert(1) popover id=x>XSS</h1>
 <button popovertarget=x>Click me</button><head onbeforetoggle=alert(1) popover id=x>XSS</head>
@@ -1505,6 +1530,7 @@
 <canvas draggable="true" ondragexit="alert(1)" style=display:block>test</canvas>
 <canvas draggable="true" ondragleave="alert(1)" style=display:block>test</canvas>
 <canvas draggable="true" ondragstart="alert(1)" style=display:block>test</canvas>
+<canvas id=x onbeforematch=alert(1) hidden=until-found>
 <canvas id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></canvas>
 <canvas id=x tabindex=1 onfocus=alert(1)></canvas>
 <canvas id=x tabindex=1 onfocusin=alert(1)></canvas>
@@ -1556,6 +1582,7 @@
 <caption draggable="true" ondragexit="alert(1)" style=display:block>test</caption>
 <caption draggable="true" ondragleave="alert(1)" style=display:block>test</caption>
 <caption draggable="true" ondragstart="alert(1)" style=display:block>test</caption>
+<caption id=x onbeforematch=alert(1) hidden=until-found>
 <caption id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></caption>
 <caption id=x tabindex=1 onfocus=alert(1)></caption>
 <caption id=x tabindex=1 onfocusin=alert(1)></caption>
@@ -1607,6 +1634,7 @@
 <center draggable="true" ondragexit="alert(1)" style=display:block>test</center>
 <center draggable="true" ondragleave="alert(1)" style=display:block>test</center>
 <center draggable="true" ondragstart="alert(1)" style=display:block>test</center>
+<center id=x onbeforematch=alert(1) hidden=until-found>
 <center id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></center>
 <center id=x tabindex=1 onfocus=alert(1)></center>
 <center id=x tabindex=1 onfocusin=alert(1)></center>
@@ -1658,6 +1686,7 @@
 <cite draggable="true" ondragexit="alert(1)" style=display:block>test</cite>
 <cite draggable="true" ondragleave="alert(1)" style=display:block>test</cite>
 <cite draggable="true" ondragstart="alert(1)" style=display:block>test</cite>
+<cite id=x onbeforematch=alert(1) hidden=until-found>
 <cite id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></cite>
 <cite id=x tabindex=1 onfocus=alert(1)></cite>
 <cite id=x tabindex=1 onfocusin=alert(1)></cite>
@@ -1709,6 +1738,7 @@
 <code draggable="true" ondragexit="alert(1)" style=display:block>test</code>
 <code draggable="true" ondragleave="alert(1)" style=display:block>test</code>
 <code draggable="true" ondragstart="alert(1)" style=display:block>test</code>
+<code id=x onbeforematch=alert(1) hidden=until-found>
 <code id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></code>
 <code id=x tabindex=1 onfocus=alert(1)></code>
 <code id=x tabindex=1 onfocusin=alert(1)></code>
@@ -1760,6 +1790,7 @@
 <col draggable="true" ondragexit="alert(1)" style=display:block>test</col>
 <col draggable="true" ondragleave="alert(1)" style=display:block>test</col>
 <col draggable="true" ondragstart="alert(1)" style=display:block>test</col>
+<col id=x onbeforematch=alert(1) hidden=until-found>
 <col id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></col>
 <col id=x tabindex=1 onfocus=alert(1)></col>
 <col id=x tabindex=1 onfocusin=alert(1)></col>
@@ -1811,6 +1842,7 @@
 <colgroup draggable="true" ondragexit="alert(1)" style=display:block>test</colgroup>
 <colgroup draggable="true" ondragleave="alert(1)" style=display:block>test</colgroup>
 <colgroup draggable="true" ondragstart="alert(1)" style=display:block>test</colgroup>
+<colgroup id=x onbeforematch=alert(1) hidden=until-found>
 <colgroup id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></colgroup>
 <colgroup id=x tabindex=1 onfocus=alert(1)></colgroup>
 <colgroup id=x tabindex=1 onfocusin=alert(1)></colgroup>
@@ -1862,6 +1894,7 @@
 <command draggable="true" ondragexit="alert(1)" style=display:block>test</command>
 <command draggable="true" ondragleave="alert(1)" style=display:block>test</command>
 <command draggable="true" ondragstart="alert(1)" style=display:block>test</command>
+<command id=x onbeforematch=alert(1) hidden=until-found>
 <command id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></command>
 <command id=x tabindex=1 onfocus=alert(1)></command>
 <command id=x tabindex=1 onfocusin=alert(1)></command>
@@ -1913,6 +1946,7 @@
 <content draggable="true" ondragexit="alert(1)" style=display:block>test</content>
 <content draggable="true" ondragleave="alert(1)" style=display:block>test</content>
 <content draggable="true" ondragstart="alert(1)" style=display:block>test</content>
+<content id=x onbeforematch=alert(1) hidden=until-found>
 <content id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></content>
 <content id=x tabindex=1 onfocus=alert(1)></content>
 <content id=x tabindex=1 onfocusin=alert(1)></content>
@@ -1964,6 +1998,7 @@
 <data draggable="true" ondragexit="alert(1)" style=display:block>test</data>
 <data draggable="true" ondragleave="alert(1)" style=display:block>test</data>
 <data draggable="true" ondragstart="alert(1)" style=display:block>test</data>
+<data id=x onbeforematch=alert(1) hidden=until-found>
 <data id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></data>
 <data id=x tabindex=1 onfocus=alert(1)></data>
 <data id=x tabindex=1 onfocusin=alert(1)></data>
@@ -2015,6 +2050,7 @@
 <datalist draggable="true" ondragexit="alert(1)" style=display:block>test</datalist>
 <datalist draggable="true" ondragleave="alert(1)" style=display:block>test</datalist>
 <datalist draggable="true" ondragstart="alert(1)" style=display:block>test</datalist>
+<datalist id=x onbeforematch=alert(1) hidden=until-found>
 <datalist id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></datalist>
 <datalist id=x tabindex=1 onfocus=alert(1)></datalist>
 <datalist id=x tabindex=1 onfocusin=alert(1)></datalist>
@@ -2066,6 +2102,7 @@
 <dd draggable="true" ondragexit="alert(1)" style=display:block>test</dd>
 <dd draggable="true" ondragleave="alert(1)" style=display:block>test</dd>
 <dd draggable="true" ondragstart="alert(1)" style=display:block>test</dd>
+<dd id=x onbeforematch=alert(1) hidden=until-found>
 <dd id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></dd>
 <dd id=x tabindex=1 onfocus=alert(1)></dd>
 <dd id=x tabindex=1 onfocusin=alert(1)></dd>
@@ -2118,6 +2155,7 @@
 <del draggable="true" ondragexit="alert(1)" style=display:block>test</del>
 <del draggable="true" ondragleave="alert(1)" style=display:block>test</del>
 <del draggable="true" ondragstart="alert(1)" style=display:block>test</del>
+<del id=x onbeforematch=alert(1) hidden=until-found>
 <del id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></del>
 <del id=x tabindex=1 onfocus=alert(1)></del>
 <del id=x tabindex=1 onfocusin=alert(1)></del>
@@ -2169,6 +2207,7 @@
 <details draggable="true" ondragexit="alert(1)" style=display:block>test</details>
 <details draggable="true" ondragleave="alert(1)" style=display:block>test</details>
 <details draggable="true" ondragstart="alert(1)" style=display:block>test</details>
+<details id=x onbeforematch=alert(1) hidden=until-found>
 <details id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></details>
 <details id=x tabindex=1 onfocus=alert(1)></details>
 <details id=x tabindex=1 onfocusin=alert(1)></details>
@@ -2221,6 +2260,7 @@
 <dfn draggable="true" ondragexit="alert(1)" style=display:block>test</dfn>
 <dfn draggable="true" ondragleave="alert(1)" style=display:block>test</dfn>
 <dfn draggable="true" ondragstart="alert(1)" style=display:block>test</dfn>
+<dfn id=x onbeforematch=alert(1) hidden=until-found>
 <dfn id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></dfn>
 <dfn id=x tabindex=1 onfocus=alert(1)></dfn>
 <dfn id=x tabindex=1 onfocusin=alert(1)></dfn>
@@ -2272,6 +2312,7 @@
 <dialog draggable="true" ondragexit="alert(1)" style=display:block>test</dialog>
 <dialog draggable="true" ondragleave="alert(1)" style=display:block>test</dialog>
 <dialog draggable="true" ondragstart="alert(1)" style=display:block>test</dialog>
+<dialog id=x onbeforematch=alert(1) hidden=until-found>
 <dialog id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></dialog>
 <dialog id=x tabindex=1 onfocus=alert(1)></dialog>
 <dialog id=x tabindex=1 onfocusin=alert(1)></dialog>
@@ -2324,6 +2365,7 @@
 <dir draggable="true" ondragexit="alert(1)" style=display:block>test</dir>
 <dir draggable="true" ondragleave="alert(1)" style=display:block>test</dir>
 <dir draggable="true" ondragstart="alert(1)" style=display:block>test</dir>
+<dir id=x onbeforematch=alert(1) hidden=until-found>
 <dir id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></dir>
 <dir id=x tabindex=1 onfocus=alert(1)></dir>
 <dir id=x tabindex=1 onfocusin=alert(1)></dir>
@@ -2477,6 +2519,8 @@
 <div draggable="true" contenteditable>drag me</div><frame ondrop=alert(1) contenteditable style=display:block>drop here</frame>
 <div draggable="true" contenteditable>drag me</div><frameset ondragover=alert(1) contenteditable style=display:block>drop here</frameset>
 <div draggable="true" contenteditable>drag me</div><frameset ondrop=alert(1) contenteditable style=display:block>drop here</frameset>
+<div draggable="true" contenteditable>drag me</div><geolocation ondragover=alert(1) contenteditable style=display:block>drop here</geolocation>
+<div draggable="true" contenteditable>drag me</div><geolocation ondrop=alert(1) contenteditable style=display:block>drop here</geolocation>
 <div draggable="true" contenteditable>drag me</div><h1 ondragover=alert(1) contenteditable style=display:block>drop here</h1>
 <div draggable="true" contenteditable>drag me</div><h1 ondrop=alert(1) contenteditable style=display:block>drop here</h1>
 <div draggable="true" contenteditable>drag me</div><head ondragover=alert(1) contenteditable style=display:block>drop here</head>
@@ -2679,6 +2723,7 @@
 <div draggable="true" ondragexit="alert(1)" style=display:block>test</div>
 <div draggable="true" ondragleave="alert(1)" style=display:block>test</div>
 <div draggable="true" ondragstart="alert(1)" style=display:block>test</div>
+<div id=x onbeforematch=alert(1) hidden=until-found>
 <div id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></div>
 <div id=x tabindex=1 onfocus=alert(1)></div>
 <div id=x tabindex=1 onfocusin=alert(1)></div>
@@ -2734,6 +2779,7 @@
 <dl draggable="true" ondragexit="alert(1)" style=display:block>test</dl>
 <dl draggable="true" ondragleave="alert(1)" style=display:block>test</dl>
 <dl draggable="true" ondragstart="alert(1)" style=display:block>test</dl>
+<dl id=x onbeforematch=alert(1) hidden=until-found>
 <dl id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></dl>
 <dl id=x tabindex=1 onfocus=alert(1)></dl>
 <dl id=x tabindex=1 onfocusin=alert(1)></dl>
@@ -2785,6 +2831,7 @@
 <dt draggable="true" ondragexit="alert(1)" style=display:block>test</dt>
 <dt draggable="true" ondragleave="alert(1)" style=display:block>test</dt>
 <dt draggable="true" ondragstart="alert(1)" style=display:block>test</dt>
+<dt id=x onbeforematch=alert(1) hidden=until-found>
 <dt id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></dt>
 <dt id=x tabindex=1 onfocus=alert(1)></dt>
 <dt id=x tabindex=1 onfocusin=alert(1)></dt>
@@ -2837,6 +2884,7 @@
 <element draggable="true" ondragexit="alert(1)" style=display:block>test</element>
 <element draggable="true" ondragleave="alert(1)" style=display:block>test</element>
 <element draggable="true" ondragstart="alert(1)" style=display:block>test</element>
+<element id=x onbeforematch=alert(1) hidden=until-found>
 <element id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></element>
 <element id=x tabindex=1 onfocus=alert(1)></element>
 <element id=x tabindex=1 onfocusin=alert(1)></element>
@@ -2888,6 +2936,7 @@
 <em draggable="true" ondragexit="alert(1)" style=display:block>test</em>
 <em draggable="true" ondragleave="alert(1)" style=display:block>test</em>
 <em draggable="true" ondragstart="alert(1)" style=display:block>test</em>
+<em id=x onbeforematch=alert(1) hidden=until-found>
 <em id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></em>
 <em id=x tabindex=1 onfocus=alert(1)></em>
 <em id=x tabindex=1 onfocusin=alert(1)></em>
@@ -2939,6 +2988,7 @@
 <embed draggable="true" ondragexit="alert(1)" style=display:block>test</embed>
 <embed draggable="true" ondragleave="alert(1)" style=display:block>test</embed>
 <embed draggable="true" ondragstart="alert(1)" style=display:block>test</embed>
+<embed id=x onbeforematch=alert(1) hidden=until-found>
 <embed id=x onfocus=alert(1) type=text/html>
 <embed id=x onfocusin=alert(1) type=text/html>
 <embed id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></embed>
@@ -2992,6 +3042,7 @@
 <fieldset draggable="true" ondragexit="alert(1)" style=display:block>test</fieldset>
 <fieldset draggable="true" ondragleave="alert(1)" style=display:block>test</fieldset>
 <fieldset draggable="true" ondragstart="alert(1)" style=display:block>test</fieldset>
+<fieldset id=x onbeforematch=alert(1) hidden=until-found>
 <fieldset id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></fieldset>
 <fieldset id=x tabindex=1 onfocus=alert(1)></fieldset>
 <fieldset id=x tabindex=1 onfocusin=alert(1)></fieldset>
@@ -3044,6 +3095,7 @@
 <figcaption draggable="true" ondragexit="alert(1)" style=display:block>test</figcaption>
 <figcaption draggable="true" ondragleave="alert(1)" style=display:block>test</figcaption>
 <figcaption draggable="true" ondragstart="alert(1)" style=display:block>test</figcaption>
+<figcaption id=x onbeforematch=alert(1) hidden=until-found>
 <figcaption id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></figcaption>
 <figcaption id=x tabindex=1 onfocus=alert(1)></figcaption>
 <figcaption id=x tabindex=1 onfocusin=alert(1)></figcaption>
@@ -3096,6 +3148,7 @@
 <figure draggable="true" ondragexit="alert(1)" style=display:block>test</figure>
 <figure draggable="true" ondragleave="alert(1)" style=display:block>test</figure>
 <figure draggable="true" ondragstart="alert(1)" style=display:block>test</figure>
+<figure id=x onbeforematch=alert(1) hidden=until-found>
 <figure id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></figure>
 <figure id=x tabindex=1 onfocus=alert(1)></figure>
 <figure id=x tabindex=1 onfocusin=alert(1)></figure>
@@ -3147,6 +3200,7 @@
 <font draggable="true" ondragexit="alert(1)" style=display:block>test</font>
 <font draggable="true" ondragleave="alert(1)" style=display:block>test</font>
 <font draggable="true" ondragstart="alert(1)" style=display:block>test</font>
+<font id=x onbeforematch=alert(1) hidden=until-found>
 <font id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></font>
 <font id=x tabindex=1 onfocus=alert(1)></font>
 <font id=x tabindex=1 onfocusin=alert(1)></font>
@@ -3198,6 +3252,7 @@
 <footer draggable="true" ondragexit="alert(1)" style=display:block>test</footer>
 <footer draggable="true" ondragleave="alert(1)" style=display:block>test</footer>
 <footer draggable="true" ondragstart="alert(1)" style=display:block>test</footer>
+<footer id=x onbeforematch=alert(1) hidden=until-found>
 <footer id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></footer>
 <footer id=x tabindex=1 onfocus=alert(1)></footer>
 <footer id=x tabindex=1 onfocusin=alert(1)></footer>
@@ -3250,6 +3305,7 @@
 <form draggable="true" ondragexit="alert(1)" style=display:block>test</form>
 <form draggable="true" ondragleave="alert(1)" style=display:block>test</form>
 <form draggable="true" ondragstart="alert(1)" style=display:block>test</form>
+<form id=x onbeforematch=alert(1) hidden=until-found>
 <form id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></form>
 <form id=x tabindex=1 onfocus=alert(1)></form>
 <form id=x tabindex=1 onfocusin=alert(1)></form>
@@ -3308,6 +3364,7 @@
 <frame draggable="true" ondragexit="alert(1)" style=display:block>test</frame>
 <frame draggable="true" ondragleave="alert(1)" style=display:block>test</frame>
 <frame draggable="true" ondragstart="alert(1)" style=display:block>test</frame>
+<frame id=x onbeforematch=alert(1) hidden=until-found>
 <frame id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></frame>
 <frame onbeforecopy="alert(1)" contenteditable>test</frame>
 <frame onbeforecut="alert(1)" contenteditable>test</frame>
@@ -3357,6 +3414,7 @@
 <frameset draggable="true" ondragexit="alert(1)" style=display:block>test</frameset>
 <frameset draggable="true" ondragleave="alert(1)" style=display:block>test</frameset>
 <frameset draggable="true" ondragstart="alert(1)" style=display:block>test</frameset>
+<frameset id=x onbeforematch=alert(1) hidden=until-found>
 <frameset id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></frameset>
 <frameset id=x tabindex=1 onfocus=alert(1)></frameset>
 <frameset id=x tabindex=1 onfocusin=alert(1)></frameset>
@@ -3405,6 +3463,57 @@
 <frameset><frame id=x onfocus=alert(1)>
 <frameset><frame id=x onfocusin=alert(1)>
 <frameset><frame onload=alert(1)>
+<geolocation autolocate onlocation=alert(1)>
+<geolocation contenteditable onbeforeinput=alert(1)>test
+<geolocation draggable="true" ondrag="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragend="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragenter="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragexit="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragleave="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragstart="alert(1)" style=display:block>test</geolocation>
+<geolocation id=x onbeforematch=alert(1) hidden=until-found>
+<geolocation id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></geolocation>
+<geolocation onbeforepaste=alert(1)>XSS</geolocation>
+<geolocation onblur=alert(1) id=x tabindex=1 style=display:block>test</geolocation><input value=clickme>
+<geolocation onclick="alert(1)" style=display:block>test</geolocation>
+<geolocation oncontentvisibilityautostatechange=alert(1) style=display:block;content-visibility:auto>
+<geolocation oncontextmenu="alert(1)" style=display:block>test</geolocation>
+<geolocation oncopy=alert(1) value="XSS" autofocus tabindex=1 style=display:block>test
+<geolocation oncut=alert(1) value="XSS" autofocus tabindex=1 style=display:block>test
+<geolocation ondblclick="alert(1)" autofocus tabindex=1 style=display:block>test</geolocation>
+<geolocation onfocus=alert(1) autofocus tabindex=1>
+<geolocation onfocusout=alert(1) autofocus tabindex=1 style=display:block>test</geolocation><input value=clickme>
+<geolocation onkeydown="alert(1)" contenteditable style=display:block>test</geolocation>
+<geolocation onkeypress="alert(1)" contenteditable style=display:block>test</geolocation>
+<geolocation onkeyup="alert(1)" contenteditable style=display:block>test</geolocation>
+<geolocation onmousedown="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseenter="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseleave="alert(1)" style=display:block>test</geolocation>
+<geolocation onmousemove="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseout="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseover="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseup="alert(1)" style=display:block>test</geolocation>
+<geolocation onmousewheel=alert(1) style=display:block>requires scrolling
+<geolocation onpointercancel=alert(1)>XSS</geolocation>
+<geolocation onpointerdown=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerenter=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerleave=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointermove=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerout=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerover=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerrawupdate=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerup=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpromptaction=alert(1)>
+<geolocation onpromptdismiss=alert(1)>
+<geolocation onscrollend=alert(1) style="display:block;overflow:auto;border:1px dashed;width:500px;height:100px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><span id=x>test</span></geolocation>
+<geolocation onsecuritypolicyviolation=alert(1)>XSS</geolocation>
+<geolocation ontouchcancel=alert(1)>XSS</geolocation>
+<geolocation onvalidationstatuschange=alert(1)>
+<geolocation onwebkitmouseforcechanged=alert(1)>XSS</geolocation>
+<geolocation onwebkitmouseforcedown=alert(1)>XSS</geolocation>
+<geolocation onwebkitmouseforceup=alert(1)>XSS</geolocation>
+<geolocation onwebkitmouseforcewillbegin=alert(1)>XSS</geolocation>
+<geolocation onwebkitwillrevealbottom=alert(1)>XSS</geolocation>
 <h1 contenteditable onbeforeinput=alert(1)>test
 <h1 draggable="true" ondrag="alert(1)" style=display:block>test</h1>
 <h1 draggable="true" ondragend="alert(1)" style=display:block>test</h1>
@@ -3412,6 +3521,7 @@
 <h1 draggable="true" ondragexit="alert(1)" style=display:block>test</h1>
 <h1 draggable="true" ondragleave="alert(1)" style=display:block>test</h1>
 <h1 draggable="true" ondragstart="alert(1)" style=display:block>test</h1>
+<h1 id=x onbeforematch=alert(1) hidden=until-found>
 <h1 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></h1>
 <h1 id=x tabindex=1 onfocus=alert(1)></h1>
 <h1 id=x tabindex=1 onfocusin=alert(1)></h1>
@@ -3463,6 +3573,7 @@
 <head draggable="true" ondragexit="alert(1)" style=display:block>test</head>
 <head draggable="true" ondragleave="alert(1)" style=display:block>test</head>
 <head draggable="true" ondragstart="alert(1)" style=display:block>test</head>
+<head id=x onbeforematch=alert(1) hidden=until-found>
 <head id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></head>
 <head id=x tabindex=1 onfocus=alert(1) style=display:block></head>
 <head id=x tabindex=1 onfocusin=alert(1) style=display:block></head>
@@ -3514,6 +3625,7 @@
 <header draggable="true" ondragexit="alert(1)" style=display:block>test</header>
 <header draggable="true" ondragleave="alert(1)" style=display:block>test</header>
 <header draggable="true" ondragstart="alert(1)" style=display:block>test</header>
+<header id=x onbeforematch=alert(1) hidden=until-found>
 <header id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></header>
 <header id=x tabindex=1 onfocus=alert(1)></header>
 <header id=x tabindex=1 onfocusin=alert(1)></header>
@@ -3566,6 +3678,7 @@
 <hgroup draggable="true" ondragexit="alert(1)" style=display:block>test</hgroup>
 <hgroup draggable="true" ondragleave="alert(1)" style=display:block>test</hgroup>
 <hgroup draggable="true" ondragstart="alert(1)" style=display:block>test</hgroup>
+<hgroup id=x onbeforematch=alert(1) hidden=until-found>
 <hgroup id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></hgroup>
 <hgroup id=x tabindex=1 onfocus=alert(1)></hgroup>
 <hgroup id=x tabindex=1 onfocusin=alert(1)></hgroup>
@@ -3617,6 +3730,7 @@
 <hr draggable="true" ondragexit="alert(1)" style=display:block>test</hr>
 <hr draggable="true" ondragleave="alert(1)" style=display:block>test</hr>
 <hr draggable="true" ondragstart="alert(1)" style=display:block>test</hr>
+<hr id=x onbeforematch=alert(1) hidden=until-found>
 <hr id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></hr>
 <hr id=x tabindex=1 onfocus=alert(1)></hr>
 <hr id=x tabindex=1 onfocusin=alert(1)></hr>
@@ -3668,6 +3782,7 @@
 <html draggable="true" ondragexit="alert(1)" style=display:block>test</html>
 <html draggable="true" ondragleave="alert(1)" style=display:block>test</html>
 <html draggable="true" ondragstart="alert(1)" style=display:block>test</html>
+<html id=x onbeforematch=alert(1) hidden=until-found>
 <html id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></html>
 <html id=x tabindex=1 onfocus=alert(1)></html>
 <html id=x tabindex=1 onfocusin=alert(1)></html>
@@ -3719,6 +3834,7 @@
 <i draggable="true" ondragexit="alert(1)" style=display:block>test</i>
 <i draggable="true" ondragleave="alert(1)" style=display:block>test</i>
 <i draggable="true" ondragstart="alert(1)" style=display:block>test</i>
+<i id=x onbeforematch=alert(1) hidden=until-found>
 <i id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></i>
 <i id=x tabindex=1 onfocus=alert(1)></i>
 <i id=x tabindex=1 onfocusin=alert(1)></i>
@@ -3772,6 +3888,7 @@
 <iframe draggable="true" ondragexit="alert(1)" style=display:block>test</iframe>
 <iframe draggable="true" ondragleave="alert(1)" style=display:block>test</iframe>
 <iframe draggable="true" ondragstart="alert(1)" style=display:block>test</iframe>
+<iframe id=x onbeforematch=alert(1) hidden=until-found>
 <iframe id=x onfocus=alert(1)>
 <iframe id=x onfocusin=alert(1)>
 <iframe id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></iframe>
@@ -3824,6 +3941,7 @@
 <iframe2 draggable="true" ondragexit="alert(1)" style=display:block>test</iframe2>
 <iframe2 draggable="true" ondragleave="alert(1)" style=display:block>test</iframe2>
 <iframe2 draggable="true" ondragstart="alert(1)" style=display:block>test</iframe2>
+<iframe2 id=x onbeforematch=alert(1) hidden=until-found>
 <iframe2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></iframe2>
 <iframe2 onbeforepaste=alert(1)>XSS</iframe2>
 <iframe2 onblur=alert(1) id=x tabindex=1 style=display:block>test</iframe2><input value=clickme>
@@ -3870,6 +3988,7 @@
 <image draggable="true" ondragexit="alert(1)" style=display:block>test</image>
 <image draggable="true" ondragleave="alert(1)" style=display:block>test</image>
 <image draggable="true" ondragstart="alert(1)" style=display:block>test</image>
+<image id=x onbeforematch=alert(1) hidden=until-found>
 <image id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></image>
 <image id=x tabindex=1 onfocus=alert(1)></image>
 <image id=x tabindex=1 onfocusin=alert(1)></image>
@@ -3924,6 +4043,7 @@
 <image2 draggable="true" ondragexit="alert(1)" style=display:block>test</image2>
 <image2 draggable="true" ondragleave="alert(1)" style=display:block>test</image2>
 <image2 draggable="true" ondragstart="alert(1)" style=display:block>test</image2>
+<image2 id=x onbeforematch=alert(1) hidden=until-found>
 <image2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></image2>
 <image2 onbeforepaste=alert(1)>XSS</image2>
 <image2 onblur=alert(1) id=x tabindex=1 style=display:block>test</image2><input value=clickme>
@@ -3970,6 +4090,7 @@
 <image3 draggable="true" ondragexit="alert(1)" style=display:block>test</image3>
 <image3 draggable="true" ondragleave="alert(1)" style=display:block>test</image3>
 <image3 draggable="true" ondragstart="alert(1)" style=display:block>test</image3>
+<image3 id=x onbeforematch=alert(1) hidden=until-found>
 <image3 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></image3>
 <image3 onbeforepaste=alert(1)>XSS</image3>
 <image3 onblur=alert(1) id=x tabindex=1 style=display:block>test</image3><input value=clickme>
@@ -4016,6 +4137,7 @@
 <img draggable="true" ondragexit="alert(1)" style=display:block>test</img>
 <img draggable="true" ondragleave="alert(1)" style=display:block>test</img>
 <img draggable="true" ondragstart="alert(1)" style=display:block>test</img>
+<img id=x onbeforematch=alert(1) hidden=until-found>
 <img id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></img>
 <img id=x tabindex=1 onfocus=alert(1)></img>
 <img id=x tabindex=1 onfocusin=alert(1)></img>
@@ -4073,6 +4195,7 @@
 <img2 draggable="true" ondragexit="alert(1)" style=display:block>test</img2>
 <img2 draggable="true" ondragleave="alert(1)" style=display:block>test</img2>
 <img2 draggable="true" ondragstart="alert(1)" style=display:block>test</img2>
+<img2 id=x onbeforematch=alert(1) hidden=until-found>
 <img2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></img2>
 <img2 onbeforepaste=alert(1)>XSS</img2>
 <img2 onblur=alert(1) id=x tabindex=1 style=display:block>test</img2><input value=clickme>
@@ -4121,6 +4244,7 @@
 <input draggable="true" ondragexit="alert(1)" style=display:block>test</input>
 <input draggable="true" ondragleave="alert(1)" style=display:block>test</input>
 <input draggable="true" ondragstart="alert(1)" style=display:block>test</input>
+<input id=x onbeforematch=alert(1) hidden=until-found>
 <input id=x onfocus=alert(1)>
 <input id=x onfocusin=alert(1)>
 <input id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></input>
@@ -4186,6 +4310,7 @@
 <input2 draggable="true" ondragexit="alert(1)" style=display:block>test</input2>
 <input2 draggable="true" ondragleave="alert(1)" style=display:block>test</input2>
 <input2 draggable="true" ondragstart="alert(1)" style=display:block>test</input2>
+<input2 id=x onbeforematch=alert(1) hidden=until-found>
 <input2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></input2>
 <input2 onbeforepaste=alert(1)>XSS</input2>
 <input2 onblur=alert(1) id=x tabindex=1 style=display:block>test</input2><input value=clickme>
@@ -4232,6 +4357,7 @@
 <input3 draggable="true" ondragexit="alert(1)" style=display:block>test</input3>
 <input3 draggable="true" ondragleave="alert(1)" style=display:block>test</input3>
 <input3 draggable="true" ondragstart="alert(1)" style=display:block>test</input3>
+<input3 id=x onbeforematch=alert(1) hidden=until-found>
 <input3 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></input3>
 <input3 onbeforepaste=alert(1)>XSS</input3>
 <input3 onblur=alert(1) id=x tabindex=1 style=display:block>test</input3><input value=clickme>
@@ -4278,6 +4404,7 @@
 <input4 draggable="true" ondragexit="alert(1)" style=display:block>test</input4>
 <input4 draggable="true" ondragleave="alert(1)" style=display:block>test</input4>
 <input4 draggable="true" ondragstart="alert(1)" style=display:block>test</input4>
+<input4 id=x onbeforematch=alert(1) hidden=until-found>
 <input4 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></input4>
 <input4 onbeforepaste=alert(1)>XSS</input4>
 <input4 onblur=alert(1) id=x tabindex=1 style=display:block>test</input4><input value=clickme>
@@ -4324,6 +4451,7 @@
 <ins draggable="true" ondragexit="alert(1)" style=display:block>test</ins>
 <ins draggable="true" ondragleave="alert(1)" style=display:block>test</ins>
 <ins draggable="true" ondragstart="alert(1)" style=display:block>test</ins>
+<ins id=x onbeforematch=alert(1) hidden=until-found>
 <ins id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></ins>
 <ins id=x tabindex=1 onfocus=alert(1)></ins>
 <ins id=x tabindex=1 onfocusin=alert(1)></ins>
@@ -4375,6 +4503,7 @@
 <kbd draggable="true" ondragexit="alert(1)" style=display:block>test</kbd>
 <kbd draggable="true" ondragleave="alert(1)" style=display:block>test</kbd>
 <kbd draggable="true" ondragstart="alert(1)" style=display:block>test</kbd>
+<kbd id=x onbeforematch=alert(1) hidden=until-found>
 <kbd id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></kbd>
 <kbd id=x tabindex=1 onfocus=alert(1)></kbd>
 <kbd id=x tabindex=1 onfocusin=alert(1)></kbd>
@@ -4428,6 +4557,7 @@
 <keygen draggable="true" ondragexit="alert(1)" style=display:block>test</keygen>
 <keygen draggable="true" ondragleave="alert(1)" style=display:block>test</keygen>
 <keygen draggable="true" ondragstart="alert(1)" style=display:block>test</keygen>
+<keygen id=x onbeforematch=alert(1) hidden=until-found>
 <keygen id=x onfocus=alert(1)>
 <keygen id=x onfocusin=alert(1)>
 <keygen id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></keygen>
@@ -4479,6 +4609,7 @@
 <label draggable="true" ondragexit="alert(1)" style=display:block>test</label>
 <label draggable="true" ondragleave="alert(1)" style=display:block>test</label>
 <label draggable="true" ondragstart="alert(1)" style=display:block>test</label>
+<label id=x onbeforematch=alert(1) hidden=until-found>
 <label id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></label>
 <label id=x tabindex=1 onfocus=alert(1)></label>
 <label id=x tabindex=1 onfocusin=alert(1)></label>
@@ -4530,6 +4661,7 @@
 <legend draggable="true" ondragexit="alert(1)" style=display:block>test</legend>
 <legend draggable="true" ondragleave="alert(1)" style=display:block>test</legend>
 <legend draggable="true" ondragstart="alert(1)" style=display:block>test</legend>
+<legend id=x onbeforematch=alert(1) hidden=until-found>
 <legend id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></legend>
 <legend id=x tabindex=1 onfocus=alert(1)></legend>
 <legend id=x tabindex=1 onfocusin=alert(1)></legend>
@@ -4581,6 +4713,7 @@
 <li draggable="true" ondragexit="alert(1)" style=display:block>test</li>
 <li draggable="true" ondragleave="alert(1)" style=display:block>test</li>
 <li draggable="true" ondragstart="alert(1)" style=display:block>test</li>
+<li id=x onbeforematch=alert(1) hidden=until-found>
 <li id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></li>
 <li id=x tabindex=1 onfocus=alert(1)></li>
 <li id=x tabindex=1 onfocusin=alert(1)></li>
@@ -4633,6 +4766,7 @@
 <link draggable="true" ondragleave="alert(1)" style=display:block>test</link>
 <link draggable="true" ondragstart="alert(1)" style=display:block>test</link>
 <link href=validstyles.css rel=stylesheet onload=alert(1)>
+<link id=x onbeforematch=alert(1) hidden=until-found>
 <link id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></link>
 <link onbeforepaste=alert(1)>XSS</link>
 <link onblur=alert(1) id=x tabindex=1 style=display:block>test</link><input value=clickme>
@@ -4682,6 +4816,7 @@
 <listing draggable="true" ondragexit="alert(1)" style=display:block>test</listing>
 <listing draggable="true" ondragleave="alert(1)" style=display:block>test</listing>
 <listing draggable="true" ondragstart="alert(1)" style=display:block>test</listing>
+<listing id=x onbeforematch=alert(1) hidden=until-found>
 <listing id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></listing>
 <listing id=x tabindex=1 onfocus=alert(1)></listing>
 <listing id=x tabindex=1 onfocusin=alert(1)></listing>
@@ -4733,6 +4868,7 @@
 <main draggable="true" ondragexit="alert(1)" style=display:block>test</main>
 <main draggable="true" ondragleave="alert(1)" style=display:block>test</main>
 <main draggable="true" ondragstart="alert(1)" style=display:block>test</main>
+<main id=x onbeforematch=alert(1) hidden=until-found>
 <main id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></main>
 <main id=x tabindex=1 onfocus=alert(1)></main>
 <main id=x tabindex=1 onfocusin=alert(1)></main>
@@ -4785,6 +4921,7 @@
 <map draggable="true" ondragexit="alert(1)" style=display:block>test</map>
 <map draggable="true" ondragleave="alert(1)" style=display:block>test</map>
 <map draggable="true" ondragstart="alert(1)" style=display:block>test</map>
+<map id=x onbeforematch=alert(1) hidden=until-found>
 <map id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></map>
 <map id=x tabindex=1 onfocus=alert(1)></map>
 <map id=x tabindex=1 onfocusin=alert(1)></map>
@@ -4836,6 +4973,7 @@
 <mark draggable="true" ondragexit="alert(1)" style=display:block>test</mark>
 <mark draggable="true" ondragleave="alert(1)" style=display:block>test</mark>
 <mark draggable="true" ondragstart="alert(1)" style=display:block>test</mark>
+<mark id=x onbeforematch=alert(1) hidden=until-found>
 <mark id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></mark>
 <mark id=x tabindex=1 onfocus=alert(1)></mark>
 <mark id=x tabindex=1 onfocusin=alert(1)></mark>
@@ -4887,6 +5025,7 @@
 <marquee draggable="true" ondragexit="alert(1)" style=display:block>test</marquee>
 <marquee draggable="true" ondragleave="alert(1)" style=display:block>test</marquee>
 <marquee draggable="true" ondragstart="alert(1)" style=display:block>test</marquee>
+<marquee id=x onbeforematch=alert(1) hidden=until-found>
 <marquee id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></marquee>
 <marquee id=x tabindex=1 onfocus=alert(1)></marquee>
 <marquee id=x tabindex=1 onfocusin=alert(1)></marquee>
@@ -4938,6 +5077,7 @@
 <menu draggable="true" ondragexit="alert(1)" style=display:block>test</menu>
 <menu draggable="true" ondragleave="alert(1)" style=display:block>test</menu>
 <menu draggable="true" ondragstart="alert(1)" style=display:block>test</menu>
+<menu id=x onbeforematch=alert(1) hidden=until-found>
 <menu id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></menu>
 <menu id=x tabindex=1 onfocus=alert(1)></menu>
 <menu id=x tabindex=1 onfocusin=alert(1)></menu>
@@ -4989,6 +5129,7 @@
 <menuitem draggable="true" ondragexit="alert(1)" style=display:block>test</menuitem>
 <menuitem draggable="true" ondragleave="alert(1)" style=display:block>test</menuitem>
 <menuitem draggable="true" ondragstart="alert(1)" style=display:block>test</menuitem>
+<menuitem id=x onbeforematch=alert(1) hidden=until-found>
 <menuitem id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></menuitem>
 <menuitem id=x tabindex=1 onfocus=alert(1)></menuitem>
 <menuitem id=x tabindex=1 onfocusin=alert(1)></menuitem>
@@ -5040,6 +5181,7 @@
 <meta draggable="true" ondragexit="alert(1)" style=display:block>test</meta>
 <meta draggable="true" ondragleave="alert(1)" style=display:block>test</meta>
 <meta draggable="true" ondragstart="alert(1)" style=display:block>test</meta>
+<meta id=x onbeforematch=alert(1) hidden=until-found>
 <meta id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></meta>
 <meta id=x tabindex=1 onfocus=alert(1) style=display:block></meta>
 <meta id=x tabindex=1 onfocusin=alert(1) style=display:block></meta>
@@ -5091,6 +5233,7 @@
 <meter draggable="true" ondragexit="alert(1)" style=display:block>test</meter>
 <meter draggable="true" ondragleave="alert(1)" style=display:block>test</meter>
 <meter draggable="true" ondragstart="alert(1)" style=display:block>test</meter>
+<meter id=x onbeforematch=alert(1) hidden=until-found>
 <meter id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></meter>
 <meter id=x tabindex=1 onfocus=alert(1)></meter>
 <meter id=x tabindex=1 onfocusin=alert(1)></meter>
@@ -5142,6 +5285,7 @@
 <multicol draggable="true" ondragexit="alert(1)" style=display:block>test</multicol>
 <multicol draggable="true" ondragleave="alert(1)" style=display:block>test</multicol>
 <multicol draggable="true" ondragstart="alert(1)" style=display:block>test</multicol>
+<multicol id=x onbeforematch=alert(1) hidden=until-found>
 <multicol id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></multicol>
 <multicol id=x tabindex=1 onfocus=alert(1)></multicol>
 <multicol id=x tabindex=1 onfocusin=alert(1)></multicol>
@@ -5193,6 +5337,7 @@
 <nav draggable="true" ondragexit="alert(1)" style=display:block>test</nav>
 <nav draggable="true" ondragleave="alert(1)" style=display:block>test</nav>
 <nav draggable="true" ondragstart="alert(1)" style=display:block>test</nav>
+<nav id=x onbeforematch=alert(1) hidden=until-found>
 <nav id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></nav>
 <nav id=x tabindex=1 onfocus=alert(1)></nav>
 <nav id=x tabindex=1 onfocusin=alert(1)></nav>
@@ -5244,6 +5389,7 @@
 <nextid draggable="true" ondragexit="alert(1)" style=display:block>test</nextid>
 <nextid draggable="true" ondragleave="alert(1)" style=display:block>test</nextid>
 <nextid draggable="true" ondragstart="alert(1)" style=display:block>test</nextid>
+<nextid id=x onbeforematch=alert(1) hidden=until-found>
 <nextid id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></nextid>
 <nextid id=x tabindex=1 onfocus=alert(1)></nextid>
 <nextid id=x tabindex=1 onfocusin=alert(1)></nextid>
@@ -5295,6 +5441,7 @@
 <nobr draggable="true" ondragexit="alert(1)" style=display:block>test</nobr>
 <nobr draggable="true" ondragleave="alert(1)" style=display:block>test</nobr>
 <nobr draggable="true" ondragstart="alert(1)" style=display:block>test</nobr>
+<nobr id=x onbeforematch=alert(1) hidden=until-found>
 <nobr id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></nobr>
 <nobr id=x tabindex=1 onfocus=alert(1)></nobr>
 <nobr id=x tabindex=1 onfocusin=alert(1)></nobr>
@@ -5346,6 +5493,7 @@
 <noembed draggable="true" ondragexit="alert(1)" style=display:block>test</noembed>
 <noembed draggable="true" ondragleave="alert(1)" style=display:block>test</noembed>
 <noembed draggable="true" ondragstart="alert(1)" style=display:block>test</noembed>
+<noembed id=x onbeforematch=alert(1) hidden=until-found>
 <noembed id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></noembed>
 <noembed id=x tabindex=1 onfocus=alert(1)></noembed>
 <noembed id=x tabindex=1 onfocusin=alert(1)></noembed>
@@ -5397,6 +5545,7 @@
 <noframes draggable="true" ondragexit="alert(1)" style=display:block>test</noframes>
 <noframes draggable="true" ondragleave="alert(1)" style=display:block>test</noframes>
 <noframes draggable="true" ondragstart="alert(1)" style=display:block>test</noframes>
+<noframes id=x onbeforematch=alert(1) hidden=until-found>
 <noframes id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></noframes>
 <noframes id=x tabindex=1 onfocus=alert(1)></noframes>
 <noframes id=x tabindex=1 onfocusin=alert(1)></noframes>
@@ -5448,6 +5597,7 @@
 <noscript draggable="true" ondragexit="alert(1)" style=display:block>test</noscript>
 <noscript draggable="true" ondragleave="alert(1)" style=display:block>test</noscript>
 <noscript draggable="true" ondragstart="alert(1)" style=display:block>test</noscript>
+<noscript id=x onbeforematch=alert(1) hidden=until-found>
 <noscript id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></noscript>
 <noscript id=x tabindex=1 onfocus=alert(1)></noscript>
 <noscript id=x tabindex=1 onfocusin=alert(1)></noscript>
@@ -5500,6 +5650,7 @@
 <object draggable="true" ondragexit="alert(1)" style=display:block>test</object>
 <object draggable="true" ondragleave="alert(1)" style=display:block>test</object>
 <object draggable="true" ondragstart="alert(1)" style=display:block>test</object>
+<object id=x onbeforematch=alert(1) hidden=until-found>
 <object id=x onfocus=alert(1) type=text/html>
 <object id=x onfocusin=alert(1) type=text/html>
 <object id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></object>
@@ -5552,6 +5703,7 @@
 <ol draggable="true" ondragexit="alert(1)" style=display:block>test</ol>
 <ol draggable="true" ondragleave="alert(1)" style=display:block>test</ol>
 <ol draggable="true" ondragstart="alert(1)" style=display:block>test</ol>
+<ol id=x onbeforematch=alert(1) hidden=until-found>
 <ol id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></ol>
 <ol id=x tabindex=1 onfocus=alert(1)></ol>
 <ol id=x tabindex=1 onfocusin=alert(1)></ol>
@@ -5603,6 +5755,7 @@
 <optgroup draggable="true" ondragexit="alert(1)" style=display:block>test</optgroup>
 <optgroup draggable="true" ondragleave="alert(1)" style=display:block>test</optgroup>
 <optgroup draggable="true" ondragstart="alert(1)" style=display:block>test</optgroup>
+<optgroup id=x onbeforematch=alert(1) hidden=until-found>
 <optgroup id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></optgroup>
 <optgroup id=x tabindex=1 onfocus=alert(1)></optgroup>
 <optgroup id=x tabindex=1 onfocusin=alert(1)></optgroup>
@@ -5654,6 +5807,7 @@
 <option draggable="true" ondragexit="alert(1)" style=display:block>test</option>
 <option draggable="true" ondragleave="alert(1)" style=display:block>test</option>
 <option draggable="true" ondragstart="alert(1)" style=display:block>test</option>
+<option id=x onbeforematch=alert(1) hidden=until-found>
 <option id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></option>
 <option id=x tabindex=1 onfocus=alert(1)></option>
 <option id=x tabindex=1 onfocusin=alert(1)></option>
@@ -5705,6 +5859,7 @@
 <output draggable="true" ondragexit="alert(1)" style=display:block>test</output>
 <output draggable="true" ondragleave="alert(1)" style=display:block>test</output>
 <output draggable="true" ondragstart="alert(1)" style=display:block>test</output>
+<output id=x onbeforematch=alert(1) hidden=until-found>
 <output id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></output>
 <output id=x tabindex=1 onfocus=alert(1)></output>
 <output id=x tabindex=1 onfocusin=alert(1)></output>
@@ -5756,6 +5911,7 @@
 <p draggable="true" ondragexit="alert(1)" style=display:block>test</p>
 <p draggable="true" ondragleave="alert(1)" style=display:block>test</p>
 <p draggable="true" ondragstart="alert(1)" style=display:block>test</p>
+<p id=x onbeforematch=alert(1) hidden=until-found>
 <p id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></p>
 <p id=x tabindex=1 onfocus=alert(1)></p>
 <p id=x tabindex=1 onfocusin=alert(1)></p>
@@ -5807,6 +5963,7 @@
 <param draggable="true" ondragexit="alert(1)" style=display:block>test</param>
 <param draggable="true" ondragleave="alert(1)" style=display:block>test</param>
 <param draggable="true" ondragstart="alert(1)" style=display:block>test</param>
+<param id=x onbeforematch=alert(1) hidden=until-found>
 <param id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></param>
 <param id=x tabindex=1 onfocus=alert(1)></param>
 <param id=x tabindex=1 onfocusin=alert(1)></param>
@@ -5858,6 +6015,7 @@
 <picture draggable="true" ondragexit="alert(1)" style=display:block>test</picture>
 <picture draggable="true" ondragleave="alert(1)" style=display:block>test</picture>
 <picture draggable="true" ondragstart="alert(1)" style=display:block>test</picture>
+<picture id=x onbeforematch=alert(1) hidden=until-found>
 <picture id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></picture>
 <picture id=x tabindex=1 onfocus=alert(1)></picture>
 <picture id=x tabindex=1 onfocusin=alert(1)></picture>
@@ -5911,6 +6069,7 @@
 <plaintext draggable="true" ondragexit="alert(1)" style=display:block>test</plaintext>
 <plaintext draggable="true" ondragleave="alert(1)" style=display:block>test</plaintext>
 <plaintext draggable="true" ondragstart="alert(1)" style=display:block>test</plaintext>
+<plaintext id=x onbeforematch=alert(1) hidden=until-found>
 <plaintext id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></plaintext>
 <plaintext id=x tabindex=1 onfocus=alert(1)></plaintext>
 <plaintext id=x tabindex=1 onfocusin=alert(1)></plaintext>
@@ -5962,6 +6121,7 @@
 <pre draggable="true" ondragexit="alert(1)" style=display:block>test</pre>
 <pre draggable="true" ondragleave="alert(1)" style=display:block>test</pre>
 <pre draggable="true" ondragstart="alert(1)" style=display:block>test</pre>
+<pre id=x onbeforematch=alert(1) hidden=until-found>
 <pre id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></pre>
 <pre id=x tabindex=1 onfocus=alert(1)></pre>
 <pre id=x tabindex=1 onfocusin=alert(1)></pre>
@@ -6013,6 +6173,7 @@
 <progress draggable="true" ondragexit="alert(1)" style=display:block>test</progress>
 <progress draggable="true" ondragleave="alert(1)" style=display:block>test</progress>
 <progress draggable="true" ondragstart="alert(1)" style=display:block>test</progress>
+<progress id=x onbeforematch=alert(1) hidden=until-found>
 <progress id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></progress>
 <progress id=x tabindex=1 onfocus=alert(1)></progress>
 <progress id=x tabindex=1 onfocusin=alert(1)></progress>
@@ -6064,6 +6225,7 @@
 <q draggable="true" ondragexit="alert(1)" style=display:block>test</q>
 <q draggable="true" ondragleave="alert(1)" style=display:block>test</q>
 <q draggable="true" ondragstart="alert(1)" style=display:block>test</q>
+<q id=x onbeforematch=alert(1) hidden=until-found>
 <q id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></q>
 <q id=x tabindex=1 onfocus=alert(1)></q>
 <q id=x tabindex=1 onfocusin=alert(1)></q>
@@ -6115,6 +6277,7 @@
 <rb draggable="true" ondragexit="alert(1)" style=display:block>test</rb>
 <rb draggable="true" ondragleave="alert(1)" style=display:block>test</rb>
 <rb draggable="true" ondragstart="alert(1)" style=display:block>test</rb>
+<rb id=x onbeforematch=alert(1) hidden=until-found>
 <rb id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></rb>
 <rb id=x tabindex=1 onfocus=alert(1)></rb>
 <rb id=x tabindex=1 onfocusin=alert(1)></rb>
@@ -6166,6 +6329,7 @@
 <rp draggable="true" ondragexit="alert(1)" style=display:block>test</rp>
 <rp draggable="true" ondragleave="alert(1)" style=display:block>test</rp>
 <rp draggable="true" ondragstart="alert(1)" style=display:block>test</rp>
+<rp id=x onbeforematch=alert(1) hidden=until-found>
 <rp id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></rp>
 <rp id=x tabindex=1 onfocus=alert(1)></rp>
 <rp id=x tabindex=1 onfocusin=alert(1)></rp>
@@ -6217,6 +6381,7 @@
 <rt draggable="true" ondragexit="alert(1)" style=display:block>test</rt>
 <rt draggable="true" ondragleave="alert(1)" style=display:block>test</rt>
 <rt draggable="true" ondragstart="alert(1)" style=display:block>test</rt>
+<rt id=x onbeforematch=alert(1) hidden=until-found>
 <rt id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></rt>
 <rt id=x tabindex=1 onfocus=alert(1)></rt>
 <rt id=x tabindex=1 onfocusin=alert(1)></rt>
@@ -6268,6 +6433,7 @@
 <rtc draggable="true" ondragexit="alert(1)" style=display:block>test</rtc>
 <rtc draggable="true" ondragleave="alert(1)" style=display:block>test</rtc>
 <rtc draggable="true" ondragstart="alert(1)" style=display:block>test</rtc>
+<rtc id=x onbeforematch=alert(1) hidden=until-found>
 <rtc id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></rtc>
 <rtc id=x tabindex=1 onfocus=alert(1)></rtc>
 <rtc id=x tabindex=1 onfocusin=alert(1)></rtc>
@@ -6319,6 +6485,7 @@
 <ruby draggable="true" ondragexit="alert(1)" style=display:block>test</ruby>
 <ruby draggable="true" ondragleave="alert(1)" style=display:block>test</ruby>
 <ruby draggable="true" ondragstart="alert(1)" style=display:block>test</ruby>
+<ruby id=x onbeforematch=alert(1) hidden=until-found>
 <ruby id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></ruby>
 <ruby id=x tabindex=1 onfocus=alert(1)></ruby>
 <ruby id=x tabindex=1 onfocusin=alert(1)></ruby>
@@ -6370,6 +6537,7 @@
 <s draggable="true" ondragexit="alert(1)" style=display:block>test</s>
 <s draggable="true" ondragleave="alert(1)" style=display:block>test</s>
 <s draggable="true" ondragstart="alert(1)" style=display:block>test</s>
+<s id=x onbeforematch=alert(1) hidden=until-found>
 <s id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></s>
 <s id=x tabindex=1 onfocus=alert(1)></s>
 <s id=x tabindex=1 onfocusin=alert(1)></s>
@@ -6421,6 +6589,7 @@
 <samp draggable="true" ondragexit="alert(1)" style=display:block>test</samp>
 <samp draggable="true" ondragleave="alert(1)" style=display:block>test</samp>
 <samp draggable="true" ondragstart="alert(1)" style=display:block>test</samp>
+<samp id=x onbeforematch=alert(1) hidden=until-found>
 <samp id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></samp>
 <samp id=x tabindex=1 onfocus=alert(1)></samp>
 <samp id=x tabindex=1 onfocusin=alert(1)></samp>
@@ -6472,6 +6641,7 @@
 <script draggable="true" ondragexit="alert(1)" style=display:block>test</script>
 <script draggable="true" ondragleave="alert(1)" style=display:block>test</script>
 <script draggable="true" ondragstart="alert(1)" style=display:block>test</script>
+<script id=x onbeforematch=alert(1) hidden=until-found>
 <script id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></script>
 <script id=x tabindex=1 onfocus=alert(1)></script>
 <script id=x tabindex=1 onfocusin=alert(1)></script>
@@ -6525,6 +6695,7 @@
 <section draggable="true" ondragexit="alert(1)" style=display:block>test</section>
 <section draggable="true" ondragleave="alert(1)" style=display:block>test</section>
 <section draggable="true" ondragstart="alert(1)" style=display:block>test</section>
+<section id=x onbeforematch=alert(1) hidden=until-found>
 <section id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></section>
 <section id=x tabindex=1 onfocus=alert(1)></section>
 <section id=x tabindex=1 onfocusin=alert(1)></section>
@@ -6579,6 +6750,7 @@
 <select draggable="true" ondragexit="alert(1)" style=display:block>test</select>
 <select draggable="true" ondragleave="alert(1)" style=display:block>test</select>
 <select draggable="true" ondragstart="alert(1)" style=display:block>test</select>
+<select id=x onbeforematch=alert(1) hidden=until-found>
 <select id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></select>
 <select onbeforecopy="alert(1)" contenteditable>test</select>
 <select onbeforecut="alert(1)" contenteditable>test</select>
@@ -6629,6 +6801,7 @@
 <set draggable="true" ondragexit="alert(1)" style=display:block>test</set>
 <set draggable="true" ondragleave="alert(1)" style=display:block>test</set>
 <set draggable="true" ondragstart="alert(1)" style=display:block>test</set>
+<set id=x onbeforematch=alert(1) hidden=until-found>
 <set id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></set>
 <set onbeforepaste=alert(1)>XSS</set>
 <set onblur=alert(1) id=x tabindex=1 style=display:block>test</set><input value=clickme>
@@ -6675,6 +6848,7 @@
 <shadow draggable="true" ondragexit="alert(1)" style=display:block>test</shadow>
 <shadow draggable="true" ondragleave="alert(1)" style=display:block>test</shadow>
 <shadow draggable="true" ondragstart="alert(1)" style=display:block>test</shadow>
+<shadow id=x onbeforematch=alert(1) hidden=until-found>
 <shadow id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></shadow>
 <shadow id=x tabindex=1 onfocus=alert(1)></shadow>
 <shadow id=x tabindex=1 onfocusin=alert(1)></shadow>
@@ -6726,6 +6900,7 @@
 <slot draggable="true" ondragexit="alert(1)" style=display:block>test</slot>
 <slot draggable="true" ondragleave="alert(1)" style=display:block>test</slot>
 <slot draggable="true" ondragstart="alert(1)" style=display:block>test</slot>
+<slot id=x onbeforematch=alert(1) hidden=until-found>
 <slot id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></slot>
 <slot id=x tabindex=1 onfocus=alert(1)></slot>
 <slot id=x tabindex=1 onfocusin=alert(1)></slot>
@@ -6777,6 +6952,7 @@
 <small draggable="true" ondragexit="alert(1)" style=display:block>test</small>
 <small draggable="true" ondragleave="alert(1)" style=display:block>test</small>
 <small draggable="true" ondragstart="alert(1)" style=display:block>test</small>
+<small id=x onbeforematch=alert(1) hidden=until-found>
 <small id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></small>
 <small id=x tabindex=1 onfocus=alert(1)></small>
 <small id=x tabindex=1 onfocusin=alert(1)></small>
@@ -6828,6 +7004,7 @@
 <source draggable="true" ondragexit="alert(1)" style=display:block>test</source>
 <source draggable="true" ondragleave="alert(1)" style=display:block>test</source>
 <source draggable="true" ondragstart="alert(1)" style=display:block>test</source>
+<source id=x onbeforematch=alert(1) hidden=until-found>
 <source id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></source>
 <source id=x tabindex=1 onfocus=alert(1)></source>
 <source id=x tabindex=1 onfocusin=alert(1)></source>
@@ -6879,6 +7056,7 @@
 <spacer draggable="true" ondragexit="alert(1)" style=display:block>test</spacer>
 <spacer draggable="true" ondragleave="alert(1)" style=display:block>test</spacer>
 <spacer draggable="true" ondragstart="alert(1)" style=display:block>test</spacer>
+<spacer id=x onbeforematch=alert(1) hidden=until-found>
 <spacer id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></spacer>
 <spacer id=x tabindex=1 onfocus=alert(1)></spacer>
 <spacer id=x tabindex=1 onfocusin=alert(1)></spacer>
@@ -6930,6 +7108,7 @@
 <span draggable="true" ondragexit="alert(1)" style=display:block>test</span>
 <span draggable="true" ondragleave="alert(1)" style=display:block>test</span>
 <span draggable="true" ondragstart="alert(1)" style=display:block>test</span>
+<span id=x onbeforematch=alert(1) hidden=until-found>
 <span id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></span>
 <span id=x tabindex=1 onfocus=alert(1)></span>
 <span id=x tabindex=1 onfocusin=alert(1)></span>
@@ -6981,6 +7160,7 @@
 <strike draggable="true" ondragexit="alert(1)" style=display:block>test</strike>
 <strike draggable="true" ondragleave="alert(1)" style=display:block>test</strike>
 <strike draggable="true" ondragstart="alert(1)" style=display:block>test</strike>
+<strike id=x onbeforematch=alert(1) hidden=until-found>
 <strike id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></strike>
 <strike id=x tabindex=1 onfocus=alert(1)></strike>
 <strike id=x tabindex=1 onfocusin=alert(1)></strike>
@@ -7032,6 +7212,7 @@
 <strong draggable="true" ondragexit="alert(1)" style=display:block>test</strong>
 <strong draggable="true" ondragleave="alert(1)" style=display:block>test</strong>
 <strong draggable="true" ondragstart="alert(1)" style=display:block>test</strong>
+<strong id=x onbeforematch=alert(1) hidden=until-found>
 <strong id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></strong>
 <strong id=x tabindex=1 onfocus=alert(1)></strong>
 <strong id=x tabindex=1 onfocusin=alert(1)></strong>
@@ -7083,6 +7264,7 @@
 <style draggable="true" ondragexit="alert(1)" style=display:block>test</style>
 <style draggable="true" ondragleave="alert(1)" style=display:block>test</style>
 <style draggable="true" ondragstart="alert(1)" style=display:block>test</style>
+<style id=x onbeforematch=alert(1) hidden=until-found>
 <style id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></style>
 <style id=x tabindex=1 onfocus=alert(1) style=display:block></style>
 <style id=x tabindex=1 onfocusin=alert(1) style=display:block></style>
@@ -7182,6 +7364,7 @@
 <style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <form class="scroll-item">Item 1</form><form class="scroll-item">Item 2</form></form>
 <style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <frame class="scroll-item">Item 1</frame><frame class="scroll-item">Item 2</frame></frame>
 <style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <frameset class="scroll-item">Item 1</frameset><frameset class="scroll-item">Item 2</frameset></frameset>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <geolocation class="scroll-item">Item 1</geolocation><geolocation class="scroll-item">Item 2</geolocation></geolocation>
 <style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <h1 class="scroll-item">Item 1</h1><h1 class="scroll-item">Item 2</h1></h1>
 <style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <head class="scroll-item">Item 1</head><head class="scroll-item">Item 2</head></head>
 <style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <header class="scroll-item">Item 1</header><header class="scroll-item">Item 2</header></header>
@@ -7334,6 +7517,7 @@
 <style>:target {color: red;}</style><form id=x style="transition:color 10s" ontransitioncancel=print()></form>
 <style>:target {color: red;}</style><frame id=x style="transition:color 10s" ontransitioncancel=print()></frame>
 <style>:target {color: red;}</style><frameset id=x style="transition:color 10s" ontransitioncancel=print()></frameset>
+<style>:target {color: red;}</style><geolocation id=x style="transition:color 10s" ontransitioncancel=print()></geolocation>
 <style>:target {color: red;}</style><h1 id=x style="transition:color 10s" ontransitioncancel=print()></h1>
 <style>:target {color: red;}</style><head id=x style="transition:color 10s" ontransitioncancel=print()></head>
 <style>:target {color: red;}</style><header id=x style="transition:color 10s" ontransitioncancel=print()></header>
@@ -7540,6 +7724,8 @@
 <style>:target {color:red;}</style><frame id=x style="transition:color 1s" onwebkittransitionend=alert(1)></frame>
 <style>:target {color:red;}</style><frameset id=x style="transition:color 1s" ontransitionstart=alert(1)></frameset>
 <style>:target {color:red;}</style><frameset id=x style="transition:color 1s" onwebkittransitionend=alert(1)></frameset>
+<style>:target {color:red;}</style><geolocation id=x style="transition:color 1s" ontransitionstart=alert(1)></geolocation>
+<style>:target {color:red;}</style><geolocation id=x style="transition:color 1s" onwebkittransitionend=alert(1)></geolocation>
 <style>:target {color:red;}</style><h1 id=x style="transition:color 1s" ontransitionstart=alert(1)></h1>
 <style>:target {color:red;}</style><h1 id=x style="transition:color 1s" onwebkittransitionend=alert(1)></h1>
 <style>:target {color:red;}</style><head id=x style="transition:color 1s" ontransitionstart=alert(1)></head>
@@ -7790,6 +7976,7 @@
 <style>:target {transform: rotate(180deg);}</style><form id=x style="transition:transform 2s" ontransitionrun=print()></form>
 <style>:target {transform: rotate(180deg);}</style><frame id=x style="transition:transform 2s" ontransitionrun=print()></frame>
 <style>:target {transform: rotate(180deg);}</style><frameset id=x style="transition:transform 2s" ontransitionrun=print()></frameset>
+<style>:target {transform: rotate(180deg);}</style><geolocation id=x style="transition:transform 2s" ontransitionrun=print()></geolocation>
 <style>:target {transform: rotate(180deg);}</style><h1 id=x style="transition:transform 2s" ontransitionrun=print()></h1>
 <style>:target {transform: rotate(180deg);}</style><head id=x style="transition:transform 2s" ontransitionrun=print()></head>
 <style>:target {transform: rotate(180deg);}</style><header id=x style="transition:transform 2s" ontransitionrun=print()></header>
@@ -7996,6 +8183,8 @@
 <style>@keyframes slidein {}</style><frame style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></frame>
 <style>@keyframes slidein {}</style><frameset style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></frameset>
 <style>@keyframes slidein {}</style><frameset style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></frameset>
+<style>@keyframes slidein {}</style><geolocation style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></geolocation>
+<style>@keyframes slidein {}</style><geolocation style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></geolocation>
 <style>@keyframes slidein {}</style><h1 style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></h1>
 <style>@keyframes slidein {}</style><h1 style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></h1>
 <style>@keyframes slidein {}</style><head style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></head>
@@ -8246,6 +8435,7 @@
 <style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><form id=x style="position:absolute;" onanimationcancel="print()"></form>
 <style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><frame id=x style="position:absolute;" onanimationcancel="print()"></frame>
 <style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><frameset id=x style="position:absolute;" onanimationcancel="print()"></frameset>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><geolocation id=x style="position:absolute;" onanimationcancel="print()"></geolocation>
 <style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><h1 id=x style="position:absolute;" onanimationcancel="print()"></h1>
 <style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><head id=x style="position:absolute;" onanimationcancel="print()"></head>
 <style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><header id=x style="position:absolute;" onanimationcancel="print()"></header>
@@ -8560,6 +8750,10 @@
 <style>@keyframes x{}</style><frameset style="animation-name:x" onanimationstart="alert(1)"></frameset>
 <style>@keyframes x{}</style><frameset style="animation-name:x" onwebkitanimationend="alert(1)"></frameset>
 <style>@keyframes x{}</style><frameset style="animation-name:x" onwebkitanimationstart="alert(1)"></frameset>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onanimationend="alert(1)"></geolocation>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onanimationstart="alert(1)"></geolocation>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onwebkitanimationend="alert(1)"></geolocation>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onwebkitanimationstart="alert(1)"></geolocation>
 <style>@keyframes x{}</style><h1 style="animation-name:x" onanimationend="alert(1)"></h1>
 <style>@keyframes x{}</style><h1 style="animation-name:x" onanimationstart="alert(1)"></h1>
 <style>@keyframes x{}</style><h1 style="animation-name:x" onwebkitanimationend="alert(1)"></h1>
@@ -8959,6 +9153,7 @@
 <sub draggable="true" ondragexit="alert(1)" style=display:block>test</sub>
 <sub draggable="true" ondragleave="alert(1)" style=display:block>test</sub>
 <sub draggable="true" ondragstart="alert(1)" style=display:block>test</sub>
+<sub id=x onbeforematch=alert(1) hidden=until-found>
 <sub id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></sub>
 <sub id=x tabindex=1 onfocus=alert(1)></sub>
 <sub id=x tabindex=1 onfocusin=alert(1)></sub>
@@ -9010,6 +9205,7 @@
 <summary draggable="true" ondragexit="alert(1)" style=display:block>test</summary>
 <summary draggable="true" ondragleave="alert(1)" style=display:block>test</summary>
 <summary draggable="true" ondragstart="alert(1)" style=display:block>test</summary>
+<summary id=x onbeforematch=alert(1) hidden=until-found>
 <summary id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></summary>
 <summary id=x tabindex=1 onfocus=alert(1)></summary>
 <summary id=x tabindex=1 onfocusin=alert(1)></summary>
@@ -9061,6 +9257,7 @@
 <sup draggable="true" ondragexit="alert(1)" style=display:block>test</sup>
 <sup draggable="true" ondragleave="alert(1)" style=display:block>test</sup>
 <sup draggable="true" ondragstart="alert(1)" style=display:block>test</sup>
+<sup id=x onbeforematch=alert(1) hidden=until-found>
 <sup id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></sup>
 <sup id=x tabindex=1 onfocus=alert(1)></sup>
 <sup id=x tabindex=1 onfocusin=alert(1)></sup>
@@ -9112,6 +9309,7 @@
 <svg draggable="true" ondragexit="alert(1)" style=display:block>test</svg>
 <svg draggable="true" ondragleave="alert(1)" style=display:block>test</svg>
 <svg draggable="true" ondragstart="alert(1)" style=display:block>test</svg>
+<svg id=x onbeforematch=alert(1) hidden=until-found>
 <svg id=x onfocus=alert(1)>
 <svg id=x onfocusin=alert(1)>
 <svg id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></svg>
@@ -9179,6 +9377,7 @@
 <table draggable="true" ondragexit="alert(1)" style=display:block>test</table>
 <table draggable="true" ondragleave="alert(1)" style=display:block>test</table>
 <table draggable="true" ondragstart="alert(1)" style=display:block>test</table>
+<table id=x onbeforematch=alert(1) hidden=until-found>
 <table id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></table>
 <table id=x tabindex=1 onfocus=alert(1)></table>
 <table id=x tabindex=1 onfocusin=alert(1)></table>
@@ -9230,6 +9429,7 @@
 <tbody draggable="true" ondragexit="alert(1)" style=display:block>test</tbody>
 <tbody draggable="true" ondragleave="alert(1)" style=display:block>test</tbody>
 <tbody draggable="true" ondragstart="alert(1)" style=display:block>test</tbody>
+<tbody id=x onbeforematch=alert(1) hidden=until-found>
 <tbody id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></tbody>
 <tbody id=x tabindex=1 onfocus=alert(1)></tbody>
 <tbody id=x tabindex=1 onfocusin=alert(1)></tbody>
@@ -9281,6 +9481,7 @@
 <td draggable="true" ondragexit="alert(1)" style=display:block>test</td>
 <td draggable="true" ondragleave="alert(1)" style=display:block>test</td>
 <td draggable="true" ondragstart="alert(1)" style=display:block>test</td>
+<td id=x onbeforematch=alert(1) hidden=until-found>
 <td id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></td>
 <td id=x tabindex=1 onfocus=alert(1)></td>
 <td id=x tabindex=1 onfocusin=alert(1)></td>
@@ -9332,6 +9533,7 @@
 <template draggable="true" ondragexit="alert(1)" style=display:block>test</template>
 <template draggable="true" ondragleave="alert(1)" style=display:block>test</template>
 <template draggable="true" ondragstart="alert(1)" style=display:block>test</template>
+<template id=x onbeforematch=alert(1) hidden=until-found>
 <template id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></template>
 <template id=x tabindex=1 onfocus=alert(1)></template>
 <template id=x tabindex=1 onfocusin=alert(1)></template>
@@ -9385,6 +9587,7 @@
 <textarea draggable="true" ondragexit="alert(1)" style=display:block>test</textarea>
 <textarea draggable="true" ondragleave="alert(1)" style=display:block>test</textarea>
 <textarea draggable="true" ondragstart="alert(1)" style=display:block>test</textarea>
+<textarea id=x onbeforematch=alert(1) hidden=until-found>
 <textarea id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></textarea>
 <textarea onauxclick=alert(1)>XSS</textarea>
 <textarea onbeforecopy=alert(1) autofocus>XSS</textarea>
@@ -9438,6 +9641,7 @@
 <tfoot draggable="true" ondragexit="alert(1)" style=display:block>test</tfoot>
 <tfoot draggable="true" ondragleave="alert(1)" style=display:block>test</tfoot>
 <tfoot draggable="true" ondragstart="alert(1)" style=display:block>test</tfoot>
+<tfoot id=x onbeforematch=alert(1) hidden=until-found>
 <tfoot id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></tfoot>
 <tfoot id=x tabindex=1 onfocus=alert(1)></tfoot>
 <tfoot id=x tabindex=1 onfocusin=alert(1)></tfoot>
@@ -9489,6 +9693,7 @@
 <th draggable="true" ondragexit="alert(1)" style=display:block>test</th>
 <th draggable="true" ondragleave="alert(1)" style=display:block>test</th>
 <th draggable="true" ondragstart="alert(1)" style=display:block>test</th>
+<th id=x onbeforematch=alert(1) hidden=until-found>
 <th id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></th>
 <th id=x tabindex=1 onfocus=alert(1)></th>
 <th id=x tabindex=1 onfocusin=alert(1)></th>
@@ -9540,6 +9745,7 @@
 <thead draggable="true" ondragexit="alert(1)" style=display:block>test</thead>
 <thead draggable="true" ondragleave="alert(1)" style=display:block>test</thead>
 <thead draggable="true" ondragstart="alert(1)" style=display:block>test</thead>
+<thead id=x onbeforematch=alert(1) hidden=until-found>
 <thead id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></thead>
 <thead id=x tabindex=1 onfocus=alert(1)></thead>
 <thead id=x tabindex=1 onfocusin=alert(1)></thead>
@@ -9591,6 +9797,7 @@
 <time draggable="true" ondragexit="alert(1)" style=display:block>test</time>
 <time draggable="true" ondragleave="alert(1)" style=display:block>test</time>
 <time draggable="true" ondragstart="alert(1)" style=display:block>test</time>
+<time id=x onbeforematch=alert(1) hidden=until-found>
 <time id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></time>
 <time id=x tabindex=1 onfocus=alert(1)></time>
 <time id=x tabindex=1 onfocusin=alert(1)></time>
@@ -9642,6 +9849,7 @@
 <title draggable="true" ondragexit="alert(1)" style=display:block>test</title>
 <title draggable="true" ondragleave="alert(1)" style=display:block>test</title>
 <title draggable="true" ondragstart="alert(1)" style=display:block>test</title>
+<title id=x onbeforematch=alert(1) hidden=until-found>
 <title id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></title>
 <title id=x tabindex=1 onfocus=alert(1)></title>
 <title id=x tabindex=1 onfocusin=alert(1)></title>
@@ -9693,6 +9901,7 @@
 <tr draggable="true" ondragexit="alert(1)" style=display:block>test</tr>
 <tr draggable="true" ondragleave="alert(1)" style=display:block>test</tr>
 <tr draggable="true" ondragstart="alert(1)" style=display:block>test</tr>
+<tr id=x onbeforematch=alert(1) hidden=until-found>
 <tr id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></tr>
 <tr id=x tabindex=1 onfocus=alert(1)></tr>
 <tr id=x tabindex=1 onfocusin=alert(1)></tr>
@@ -9744,6 +9953,7 @@
 <track draggable="true" ondragexit="alert(1)" style=display:block>test</track>
 <track draggable="true" ondragleave="alert(1)" style=display:block>test</track>
 <track draggable="true" ondragstart="alert(1)" style=display:block>test</track>
+<track id=x onbeforematch=alert(1) hidden=until-found>
 <track id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></track>
 <track id=x tabindex=1 onfocus=alert(1)></track>
 <track id=x tabindex=1 onfocusin=alert(1)></track>
@@ -9795,6 +10005,7 @@
 <tt draggable="true" ondragexit="alert(1)" style=display:block>test</tt>
 <tt draggable="true" ondragleave="alert(1)" style=display:block>test</tt>
 <tt draggable="true" ondragstart="alert(1)" style=display:block>test</tt>
+<tt id=x onbeforematch=alert(1) hidden=until-found>
 <tt id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></tt>
 <tt id=x tabindex=1 onfocus=alert(1)></tt>
 <tt id=x tabindex=1 onfocusin=alert(1)></tt>
@@ -9846,6 +10057,7 @@
 <u draggable="true" ondragexit="alert(1)" style=display:block>test</u>
 <u draggable="true" ondragleave="alert(1)" style=display:block>test</u>
 <u draggable="true" ondragstart="alert(1)" style=display:block>test</u>
+<u id=x onbeforematch=alert(1) hidden=until-found>
 <u id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></u>
 <u id=x tabindex=1 onfocus=alert(1)></u>
 <u id=x tabindex=1 onfocusin=alert(1)></u>
@@ -9897,6 +10109,7 @@
 <ul draggable="true" ondragexit="alert(1)" style=display:block>test</ul>
 <ul draggable="true" ondragleave="alert(1)" style=display:block>test</ul>
 <ul draggable="true" ondragstart="alert(1)" style=display:block>test</ul>
+<ul id=x onbeforematch=alert(1) hidden=until-found>
 <ul id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></ul>
 <ul id=x tabindex=1 onfocus=alert(1)></ul>
 <ul id=x tabindex=1 onfocusin=alert(1)></ul>
@@ -9948,6 +10161,7 @@
 <var draggable="true" ondragexit="alert(1)" style=display:block>test</var>
 <var draggable="true" ondragleave="alert(1)" style=display:block>test</var>
 <var draggable="true" ondragstart="alert(1)" style=display:block>test</var>
+<var id=x onbeforematch=alert(1) hidden=until-found>
 <var id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></var>
 <var id=x tabindex=1 onfocus=alert(1)></var>
 <var id=x tabindex=1 onfocusin=alert(1)></var>
@@ -10026,6 +10240,7 @@
 <video draggable="true" ondragstart="alert(1)" style=display:block>test</video>
 <video id=x controls onfocus=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
 <video id=x controls onfocusin=alert(1)><source src="validvideo.mp4" type=video/mp4></video>
+<video id=x onbeforematch=alert(1) hidden=until-found>
 <video id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></video>
 <video onbeforecopy="alert(1)" contenteditable>test</video>
 <video onbeforecut="alert(1)" contenteditable>test</video>
@@ -10083,6 +10298,7 @@
 <video2 draggable="true" ondragexit="alert(1)" style=display:block>test</video2>
 <video2 draggable="true" ondragleave="alert(1)" style=display:block>test</video2>
 <video2 draggable="true" ondragstart="alert(1)" style=display:block>test</video2>
+<video2 id=x onbeforematch=alert(1) hidden=until-found>
 <video2 id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></video2>
 <video2 onbeforepaste=alert(1)>XSS</video2>
 <video2 onblur=alert(1) id=x tabindex=1 style=display:block>test</video2><input value=clickme>
@@ -10131,6 +10347,7 @@
 <wbr draggable="true" ondragexit="alert(1)" style=display:block>test</wbr>
 <wbr draggable="true" ondragleave="alert(1)" style=display:block>test</wbr>
 <wbr draggable="true" ondragstart="alert(1)" style=display:block>test</wbr>
+<wbr id=x onbeforematch=alert(1) hidden=until-found>
 <wbr id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></wbr>
 <wbr id=x tabindex=1 onfocus=alert(1)></wbr>
 <wbr id=x tabindex=1 onfocusin=alert(1)></wbr>
@@ -10182,6 +10399,7 @@
 <xmp draggable="true" ondragexit="alert(1)" style=display:block>test</xmp>
 <xmp draggable="true" ondragleave="alert(1)" style=display:block>test</xmp>
 <xmp draggable="true" ondragstart="alert(1)" style=display:block>test</xmp>
+<xmp id=x onbeforematch=alert(1) hidden=until-found>
 <xmp id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></xmp>
 <xmp id=x tabindex=1 onfocus=alert(1)></xmp>
 <xmp id=x tabindex=1 onfocusin=alert(1)></xmp>
@@ -10235,6 +10453,7 @@
 <xss draggable="true" ondragexit="alert(1)" style=display:block>test</xss>
 <xss draggable="true" ondragleave="alert(1)" style=display:block>test</xss>
 <xss draggable="true" ondragstart="alert(1)" style=display:block>test</xss>
+<xss id=x onbeforematch=alert(1) hidden=until-found>
 <xss id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></xss>
 <xss onbeforepaste=alert(1)>XSS</xss>
 <xss onblur=alert(1) id=x tabindex=1 style=display:block>test</xss><input value=clickme>
@@ -10274,3 +10493,4 @@
 <xss onwebkitmouseforceup=alert(1)>XSS</xss>
 <xss onwebkitmouseforcewillbegin=alert(1)>XSS</xss>
 <xss onwebkitwillrevealbottom=alert(1)>XSS</xss>
+x<template shadowrootmode=open><slot onslotchange=alert(1)>
