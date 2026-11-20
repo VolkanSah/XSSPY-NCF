@@ -1,5 +1,5 @@
 # XSSPY (NCF Version)
-###### rebuilt 2019-2400 (v.2705.2026) | Datasheet last updated: Tue, 27 Jan 2026 9:00:00 +0000.
+###### rebuilt 2019-2400 (v.2705.2026) | Datasheet  Last updated: Wed, 21 Oct 2026 
 if forked, check orginal for updates: [Source](https://github.com/VolkanSah/XSSPY-NCF/)
 
 ![XSS Py Rebuillt](xsspy-jpg.jpg)
